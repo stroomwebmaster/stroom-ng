@@ -50,7 +50,6 @@ export default class App extends Component {
 							<NotFoundPage type="404" default />
 						</Router>
 					</div>
-					<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpwtaeCaBPmlYhOBOhN5GxWxERfW4hFJQ&callback=initMap" />
 				</Provider>
 			</div>
 		);

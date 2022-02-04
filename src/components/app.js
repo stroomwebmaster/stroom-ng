@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import { h, Component, createRef } from 'preact';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import NotFoundPage from '../routes/notfound';
@@ -11,6 +11,7 @@ import Contact from '../routes/contact';
 import ContactSuccess from '../routes/contact-success';
 
 export default class App extends Component {
+	ref = createRef();
 
 	/** Gets fired when the route changes.
 	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
@@ -22,7 +23,7 @@ export default class App extends Component {
 
 	componentDidMount() {
 		if (!!window.MSInputMethodContext && !!document.documentMode) {
-			document.getElementById('ie11-warning').classList.remove('hidden');
+			this.ref.current.classList.remove('hidden');
 		}
 	}
 
@@ -30,7 +31,7 @@ export default class App extends Component {
 		return (
 			<div id="preact_root">
 				<Provider value={props}>
-					<article id="ie11-warning" class="hidden fixed w-full h-full top-0 left-0 bg-pink z-20">
+					<article id="ie11-warning" class="hidden fixed w-full h-full top-0 left-0 bg-pink z-20" ref={this.ref}>
 						<div class="bg-orange px-4 text-right border-b-8 border-turquoise py-12">
 							<div class="text-xl md:text-2xl lg:text-4xl font-black uppercase leading-tight">
 								<h2 class="text-coal font-HelveticaNeueLTPro-BlkEx">Stroom Amsterdam</h2>

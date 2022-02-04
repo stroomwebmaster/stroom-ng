@@ -6,6 +6,12 @@ import style from "./style";
 
 import Map from '../../components/map';
 export default class Home extends Component {
+	constructor(props) {
+		super(props);
+		const date = new Date();
+		this.state = { year: date.getFullYear() };
+	}
+
 	componentDidMount() {
 
 		/*
@@ -19,8 +25,8 @@ export default class Home extends Component {
 		}
 	}
 
-	render(props) {
-		const [prerender] = usePrerenderData(props);
+	render() {
+		const [prerender] = usePrerenderData(this.props);
 
 		return (
 			<div>
@@ -164,7 +170,7 @@ export default class Home extends Component {
 								</div>
 					
 								<div class="col-span-4 md:col-span-8 lg:col-span-12 mt-8 md:mt-16 lg:mt-20">
-									<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex text-white">&copy; STROOM Amsterdam, 2022</span>
+									<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex text-white">&copy; STROOM Amsterdam, {this.state.year}</span>
 								</div>
 							</div>
 						</div>

@@ -20,11 +20,11 @@ export default class Home extends Component {
 	}
 
 	render(props) {
-		const [data] = usePrerenderData(props);
+		const [prerender] = usePrerenderData(props);
 
 		return (
 			<div>
-				<Header address={data.data.globals.address} />
+				<Header address={prerender.data.globals.address} />
 				<div class="-mb-12">
 					<div class="container mx-auto">
 						<div class="px-4 md:px-0">
@@ -107,7 +107,7 @@ export default class Home extends Component {
 					</div>
 				</article>
 
-				<Map address={data.data.globals.address} />
+				<Map address={prerender.data.globals.address} />
 			
 				<article class="bg-coal">
 					<div class="bg-coal -top-6 md:top-0 -mb-12 relative overflow-x-hidden">
@@ -145,7 +145,7 @@ export default class Home extends Component {
 											</li>
 											<li class="mb-6">
 												<h2 class="uppercase text-red text-base md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Waar vindt STROOM plaats op zondag om 11 uur?</h2>
-												<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex">Op de { data.data.globals.address.name } in Amsterdam.</span>
+												<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex">Op de { prerender.data.globals.address.name } in Amsterdam.</span>
 											</li>
 											<li class="mb-6">
 												<h2 class="uppercase text-red text-base md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Is er ook een kinderprogramma?</h2>

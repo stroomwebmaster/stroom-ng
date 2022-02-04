@@ -6,6 +6,7 @@ import Tiles from '../../components/tiles';
 import style from "./style";
 
 import Map from '../../components/map';
+import Upcoming from '../../components/upcoming';
 export default class Home extends Component {
 	constructor(props) {
 		super(props);
@@ -64,31 +65,7 @@ export default class Home extends Component {
 						</form>
 					</div>
 				</div>
-				<article class="bg-coal w-hd-80 xl:ml-auto">
-					<div class="container mx-auto px-4 md:px-0">
-						<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-32 md:pt-40 pb-32 md:pb-48">
-							<div class="col-span-4 md:col-span-8 lg:col-span-12 text-right">
-								<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta md:mb-12 font-HelveticaNeueLTPro-BlkEx">Aanstaande zondag</h2>
-							</div>
-							<div class="col-span-4 lg:col-span-7 md:col-start-2 lg:col-start-2 bg-black h-16_9 sm:h-73 md:h-48 lg:h-71 xl:h-85 shadow-sharp-lila mr-4 md:mr-8">
-								<figure class="yt-thumbnail-container">
-									<img id="youtubethumbnail" class="w-full yt-thumbnail" alt="thumbnail" />
-								</figure>
-								<div id="youtubebutton" class="yt-play" />
-								<iframe id="youtubevideo" class="w-full h-full hidden" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
-							</div>
-							<div class="col-span-4 md:col-start-6 md:col-span-3 lg:col-start-10 lg:col-span-3">
-								<p class="text-sm md:text-base lg:text-2xl leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex">
-								Helaas! STRO0M heeft geen live-bijeenkomsten de komende zondagen.
-								Vanaf 16 januari organiseren we een speciaal lock-down programma, tot die tijd kun je terecht in ons archief.
-								</p>
-								<br />
-								<a href="https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg" target="_blank" rel="noreferrer noopener" class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Archief &#x9b;</a><br/>
-								<a href="https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA" target="_blank" rel="noreferrer noopener" class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Podcast-archief &#x9b;</a>
-							</div>
-						</div>
-					</div>
-				</article>
+				<Upcoming upcoming={prerender.data.upcoming} />
 			
 				<Tiles />
 

@@ -43,5 +43,15 @@ module.exports = () => {
 		}
 	});
 
+	const globals = JSON.parse(fs.readFileSync(join('content', 'globals.json'), 'utf-8'));
+	pages.forEach((page) => {
+		page.data = {
+			globals: {
+				...globals
+			},
+			...page.data
+		};
+	});
+
 	return pages;
 };

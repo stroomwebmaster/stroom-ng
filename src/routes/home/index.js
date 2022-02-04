@@ -1,10 +1,13 @@
 import { h, Component } from "preact";
 import { useEffect } from 'preact/hooks';
 import { usePrerenderData } from '@preact/prerender-data-provider';
+import Header from '../../components/header';
 import style from "./style";
 
+import Map from '../../components/map';
 export default class Home extends Component {
 	componentDidMount() {
+
 		/*
 		* Netlify CMS's accept invite link land on home page.
 		* This redirection takes it to the right place(/admin).
@@ -19,10 +22,9 @@ export default class Home extends Component {
 	render(props) {
 		const [data] = usePrerenderData(props);
 
-		console.log('data', data);
-
 		return (
 			<div>
+				<Header address={data.data.globals.address} />
 				<div class="-mb-12">
 					<div class="container mx-auto">
 						<div class="px-4 md:px-0">
@@ -104,18 +106,8 @@ export default class Home extends Component {
 						</div>
 					</div>
 				</article>
-			
-				<article class="relative z-10 h-105">
-					<div class="container mx-auto px-4 md:px-0">
-						<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-16 md:pt-24">
-							<div class="col-span-4 md:col-start-4 md:col-span-5 lg:col-start-5 lg:col-span-8">
-								<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-blue mb-5 lg:mb-8 z-10 font-HelveticaNeueLTPro-BlkEx">Hier moet je zijn</h2>
-								<div id="map-canvas" class="w-full gm-container" />
-								<div class="col-span-4 md:col-start-4 md:col-span-5 lg:col-start-5 lg:col-span-8 relative left-0 bg-blue gm-overlay" />
-							</div>
-						</div>
-					</div>
-				</article>
+
+				<Map address={data.data.globals.address} />
 			
 				<article class="bg-coal">
 					<div class="bg-coal -top-6 md:top-0 -mb-12 relative overflow-x-hidden">
@@ -153,7 +145,7 @@ export default class Home extends Component {
 											</li>
 											<li class="mb-6">
 												<h2 class="uppercase text-red text-base md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Waar vindt STROOM plaats op zondag om 11 uur?</h2>
-												<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex">Op de <span id="address2" /> in Amsterdam.</span>
+												<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex">Op de { data.data.globals.address.name } in Amsterdam.</span>
 											</li>
 											<li class="mb-6">
 												<h2 class="uppercase text-red text-base md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">Is er ook een kinderprogramma?</h2>
@@ -180,5 +172,5 @@ export default class Home extends Component {
 				</article>
 			</div>
 		);
-	};
-};
+	}
+}

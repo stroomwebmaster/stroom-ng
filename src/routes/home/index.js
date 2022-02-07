@@ -10,12 +10,6 @@ import Upcoming from '../../components/upcoming';
 import Introduction from '../../components/introduction';
 import Footer from '../../components/footer';
 export default class Home extends Component {
-	constructor(props) {
-		super(props);
-		const date = new Date();
-		this.state = { year: date.getFullYear() };
-	}
-
 	componentDidMount() {
 
 		/*

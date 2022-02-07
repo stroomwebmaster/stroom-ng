@@ -1,5 +1,7 @@
 import { Component } from 'preact';
 
+import style from './style';
+
 const YTPlayer = require('yt-player');
 
 export default class Upcoming extends Component {
@@ -52,10 +54,10 @@ export default class Upcoming extends Component {
 							<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta md:mb-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.title}</h2>
 						</div>
 						<div class="col-span-4 lg:col-span-7 md:col-start-2 lg:col-start-2 bg-black h-16_9 sm:h-73 md:h-48 lg:h-71 xl:h-85 shadow-sharp-lila mr-4 md:mr-8">
-							<figure class={`yt-thumbnail-container ${this.state.isPlaying ? 'hidden' : ''}`}>
-								<img src={this.state.thumbnail} class="w-full yt-thumbnail" alt="thumbnail" onClick={this.onThumbnailClick} />
+							<figure class={`${style.thumbnailContainer} ${this.state.isPlaying ? 'hidden' : ''}`}>
+								<img src={this.state.thumbnail} class={`w-full ${style.thumbnail}`} alt="thumbnail" onClick={this.onThumbnailClick} />
 							</figure>
-							<div id="youtubebutton" class={`yt-play ${this.state.isPlaying ? 'hidden' : ''}`} />
+							<div id="youtubebutton" class={`${style.play} ${this.state.isPlaying ? 'hidden' : ''}`} />
 							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full  ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
 						</div>
 						<div class="col-span-4 md:col-start-6 md:col-span-3 lg:col-start-10 lg:col-span-3">

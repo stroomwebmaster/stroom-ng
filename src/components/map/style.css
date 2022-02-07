@@ -1,0 +1,14 @@
+.container {
+    height: 400px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.overlay {
+    top: -400px;
+    height: 400px;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    filter: saturate(10) opacity(1);
+    -webkit-filter: saturate(10) opacity(1);
+}

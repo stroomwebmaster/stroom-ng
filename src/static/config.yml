@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  branch: master
-media_folder: src/assets # updaten naar content/assets??
+  branch: main
+media_folder: content/images
 public_folder: /assets
 # collections:
 #   - name: "pages"
@@ -20,19 +20,30 @@ collections:
   - name: homepage
     label: Homepage
     files:
-      - label: Upcoming
-        name: upcoming
-        file: content/homepage/upcoming.yml
+      - label: Homepage
+        name: homepage
+        file: content/homepage/homepage.json
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Video Id, name: video_id, widget: string}
-          - label: Links
-            name: links
-            widget: list
+          - label: Introduction
+            name: introduction
+            widget: object
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Url, name: url, widget: string}
-              - {label: New window, name: new_window, widget: boolean}
+              - {label: Description, name: description, widget: markdown}
+              - {label: Newsletter title, name: newsletterTitle, widget: string}
+              - {label: Newsletter button text, name: newsletterButton, widget: string}
+          - label: Upcoming
+            name: upcoming
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Description, name: description, widget: markdown}
+            - {label: Video Id, name: video_id, widget: string}
+            - label: Links
+              name: links
+              widget: list
+              fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Url, name: url, widget: string}
+                - {label: New window, name: new_window, widget: boolean}
     
 

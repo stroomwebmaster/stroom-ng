@@ -1,14 +1,12 @@
-import { h, Component } from "preact";
-import { useEffect } from 'preact/hooks';
+import { Component } from 'preact';
 import { usePrerenderData } from '@preact/prerender-data-provider';
-import Header from '../../components/header';
-import Tiles from '../../components/tiles';
-import style from "./style";
 
-import Map from '../../components/map';
-import Upcoming from '../../components/upcoming';
-import Introduction from '../../components/introduction';
 import Footer from '../../components/footer';
+import Header from '../../components/header';
+import Introduction from '../../components/introduction';
+import Map from '../../components/map';
+import Tiles from '../../components/tiles';
+import Upcoming from '../../components/upcoming';
 export default class Home extends Component {
 	componentDidMount() {
 

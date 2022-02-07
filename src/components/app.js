@@ -1,14 +1,10 @@
-import { h, Component, createRef } from 'preact';
+import { Component, createRef } from 'preact';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import NotFoundPage from '../routes/notfound';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
-import Blogs from '../routes/blogs';
-import Blog from '../routes/blog';
-import Contact from '../routes/contact';
-import ContactSuccess from '../routes/contact-success';
 
 export default class App extends Component {
 	ref = createRef();
@@ -42,10 +38,6 @@ export default class App extends Component {
 					<div id="app">
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
-							<Blogs path="/blogs/" />
-							<Blog path="/blog/:name" />
-							<Contact path="/contact/" />
-							<ContactSuccess path="/contact/success" />
 							<NotFoundPage type="404" default />
 						</Router>
 					</div>

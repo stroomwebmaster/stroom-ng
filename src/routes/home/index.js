@@ -28,17 +28,17 @@ export default class Home extends Component {
 
 		return (
 			<div>
-				<Header address={prerender.data.globals.address} />
+				<Header content={prerender.data.globals.header} address={prerender.data.globals.address} />
 				
-				<Introduction />
+				<Introduction content={prerender.data.introduction} />
 
-				<Upcoming upcoming={prerender.data.upcoming} />
+				<Upcoming content={prerender.data.upcoming} />
 			
-				<Tiles />
+				<Tiles content={prerender.data.tiles} />
 
-				<Map address={prerender.data.globals.address} />
+				<Map content={prerender.data.map} address={prerender.data.globals.address} />
 			
-				<Footer address={prerender.data.globals.address} />
+				<Footer content={prerender.data.footer} address={prerender.data.globals.address} />
 			</div>
 		);
 	}

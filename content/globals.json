@@ -5,5 +5,9 @@
 			"lat": 52.36603646667439,
 			"lng": 4.903751897899311
 		}
+	},
+	"header": {
+		"title": "Stroom Amsterdam",
+		"subTitle": "Zondagochtend 11 uur"
 	}
 }

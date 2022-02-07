@@ -1,0 +1,109 @@
+{
+	"introduction": {
+		"description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
+		"newsletterTitle": "Nieuwsbrief",
+		"newsletterButton": "Schrijf je in"
+	},
+	"upcoming": {
+		"title": "Aanstaande zondag",
+		"description": "Helaas! STRO0M heeft geen live-bijeenkomsten de komende zondagen. Vanaf 16 januari organiseren we een speciaal lock-down programma, tot die tijd kun je terecht in ons archief.",
+		"videoId": "daLSy76JNyU",
+		"links": [
+			{
+				"name": "Archief",
+				"url": "https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg",
+				"newWindow": true
+			},
+			{
+				"name": "Podcast archief",
+				"url": "https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA",
+				"newWindow": true
+			}
+		]
+	},
+	"tiles": {
+		"tileOne": {
+			"title": "Elke zondag om 11 uur.",
+			"name": "Stroominee, 2020"
+		},
+		"tileTwo": {
+			"title": "Leuk om hier te zijn.",
+			"names": [
+				"Iris Penning, 2021",
+				"Jorgen Unom, 2021",
+				"Boris van der Ham, 2020",
+				"Michline Plukker, 2020",
+				"Hugo de Haas van Dorsser, 2020",
+				"Rikko Voorberg, 2018",
+				"Erno Eskens, 2019",
+				"Tim Vreugdenhil, 2019",
+				"Tinkebel, 2020",
+				"Michiel van Elk, 2017",
+				"Linda Polman, 2019",
+				"Don Ceder, 2019",
+				"Daan Borrel, 2019",
+				"Ewald Engelen, 2018",
+				"Bram Bakker, 2016",
+				"Simon(e) van Saarloos, 2016"
+			]
+		},
+		"tileThree": {
+			"title": "Ik kom spoedig.",
+			"name": "Jezus, 33"
+		}
+	},
+	"map": {
+		"title": "Hier moet je zijn"
+	},
+	"footer": {
+		"contact": {
+			"title": "Connect",
+			"facebook": {
+				"title": "Facebookgroep",
+				"url": "https://www.facebook.com/groups/STROOMAmsterdam"
+			},
+			"email": {
+				"title": "jezus@stroomamsterdam.nl",
+				"url": "mailto:jezus@stroomamsterdam.nl"
+			}
+		},
+		"faq": {
+			"title": "FAQ",
+			"items": [
+				{
+					"question": "Op welke dag vindt STROOM plaats?",
+					"answer": "Op zondag."
+				},
+				{
+					"question": "Hoe laat vindt STROOM op zondag plaats?",
+					"answer": "Om 11 uur."
+				},
+				{
+					"question": "Waar vindt STROOM plaats op zondag om 11 uur?",
+					"answer": "Op de Nieuwe Herengracht 18 in Amsterdam."
+				},
+				{
+					"question": "Is er ook een kinderprogramma?",
+					"answer": "Zeker."
+				},
+				{
+					"question": "Komt Jezus ook?",
+					"answer": "Spoedig."
+				},
+				{
+					"question": "Zal ik me inschrijven voor de nieuwsbrief?",
+					"answer": "Ja, doen!"
+				},
+				{
+					"question": "Is er ook een samenkomst als dat volgens de richtlijnen van het RIVM niet de bedoeling is?",
+					"answer": "Nee."
+				},
+				{
+					"question": "Kan ik op deze pagina info vinden over wat er gebeurt tijdens lockdowns?",
+					"answer": "Tuurlijk."
+				}
+			]
+		},
+		"copyrightName": "STROOM Amsterdam"
+	}
+}

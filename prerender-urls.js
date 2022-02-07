@@ -34,12 +34,12 @@ module.exports = () => {
 		};
 	}));
 
-	const upcoming = JSON.parse(fs.readFileSync(join('content', 'homepage', 'upcoming.json'), 'utf-8'));
+	const homepage = JSON.parse(fs.readFileSync(join('content', 'homepage', 'homepage.json'), 'utf-8'));
 	pages.push({
 		url: '/',
 		//seo: to do
 		data: {
-			upcoming
+			...homepage
 		}
 	});
 

@@ -6,9 +6,7 @@ const Introduction = (props) => (
 					<div class="dotted-red absolute w-1/2 h-full-dots-top -top-6 md:-top-12 -right-24 md:-right-40" />
 					<div class="col-span-3 md:col-start-2 lg:col-start-2 md:col-span-4 lg:col-span-6 my-12 md:mt-24 md:mb-20 lg:mb-40">
 						<p class="text-coal text-sm md:text-lg lg:text-2xl leading-relaxed md:mb-8 font-HelveticaNeueLTPro-Ex pl-4">
-							Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige.
-							Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant.
-							Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.
+							{props.content?.description}
 						</p>
 					</div>
 				</div>
@@ -20,13 +18,13 @@ const Introduction = (props) => (
 				target="_blank" 
 				novalidate>
 				<div class="col-span-4 md:col-start-2 lg:col-start-2 md:col-span-7 lg:col-span-11">
-					<h2 class="uppercase text-turquoise text-xl md:text-3xl lg:text-4xl font-black font-HelveticaNeueLTPro-BlkEx">Nieuwsbrief</h2>
+					<h2 class="uppercase text-turquoise text-xl md:text-3xl lg:text-4xl font-black font-HelveticaNeueLTPro-BlkEx">{props.content?.newsletterTitle}</h2>
 				</div>
 				<div class="col-span-4 md:col-start-2 lg:col-start-2 md:col-span-4 lg:col-span-7">
 					<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="w-full h-12 md:h-full px-3 text-sm md:text-lg lg:text-2xl" />
 				</div>
 				<div class="col-span-4 md:col-span-2 lg:col-span-3">
-					<input type="submit" class="w-full bg-magenta py-3 text-white uppercase text-lg lg:text-2xl font-semibold font-HelveticaNeueLTPro-MdCn cursor-pointer" value="Schrijf je in" />
+					<input type="submit" class="w-full bg-magenta py-3 text-white uppercase text-lg lg:text-2xl font-semibold font-HelveticaNeueLTPro-MdCn cursor-pointer" value={props.content?.newsletterButton} />
 				</div>
 			</form>
 		</div>

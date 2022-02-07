@@ -17,9 +17,9 @@ const Header = (props) => (
 					</button>
 					<div class="col-span-4 md:col-span-6 lg:col-span-11 bg-orange px-4 md:text-right mt-12 md:mt-24 border-b-8 border-turquoise py-12">
 						<div class="text-xl md:text-2xl lg:text-4xl font-black uppercase leading-tight relative md:-right-12">
-							<h1 class="text-coal font-HelveticaNeueLTPro-BlkEx">Stroom Amsterdam</h1>
-							<h2 class="inline md:block text-red-outline font-HelveticaNeueLTPro-BlkEx">Zondagochtend 11 uur</h2>
-							<h2 id="address1" class="inline md:block text-red-outline font-HelveticaNeueLTPro-BlkEx">{props.address.name}</h2>
+							<h1 class="text-coal font-HelveticaNeueLTPro-BlkEx">{props.content?.title}</h1>
+							<h2 class="inline md:block text-red-outline font-HelveticaNeueLTPro-BlkEx">{props.content?.subTitle}</h2>
+							<h2 id="address1" class="inline md:block text-red-outline font-HelveticaNeueLTPro-BlkEx">{props.address?.name}</h2>
 						</div>
 					</div>
 				</div>

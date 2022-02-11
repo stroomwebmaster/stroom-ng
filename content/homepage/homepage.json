@@ -54,56 +54,5 @@
 	},
 	"map": {
 		"title": "Hier moet je zijn"
-	},
-	"footer": {
-		"contact": {
-			"title": "Connect",
-			"facebook": {
-				"title": "Facebookgroep",
-				"url": "https://www.facebook.com/groups/STROOMAmsterdam"
-			},
-			"email": {
-				"title": "jezus@stroomamsterdam.nl",
-				"url": "mailto:jezus@stroomamsterdam.nl"
-			}
-		},
-		"faq": {
-			"title": "FAQ",
-			"items": [
-				{
-					"question": "Op welke dag vindt STROOM plaats?",
-					"answer": "Op zondag."
-				},
-				{
-					"question": "Hoe laat vindt STROOM op zondag plaats?",
-					"answer": "Om 11 uur."
-				},
-				{
-					"question": "Waar vindt STROOM plaats op zondag om 11 uur?",
-					"answer": "Op de Nieuwe Herengracht 18 in Amsterdam."
-				},
-				{
-					"question": "Is er ook een kinderprogramma?",
-					"answer": "Zeker."
-				},
-				{
-					"question": "Komt Jezus ook?",
-					"answer": "Spoedig."
-				},
-				{
-					"question": "Zal ik me inschrijven voor de nieuwsbrief?",
-					"answer": "Ja, doen!"
-				},
-				{
-					"question": "Is er ook een samenkomst als dat volgens de richtlijnen van het RIVM niet de bedoeling is?",
-					"answer": "Nee."
-				},
-				{
-					"question": "Kan ik op deze pagina info vinden over wat er gebeurt tijdens lockdowns?",
-					"answer": "Tuurlijk."
-				}
-			]
-		},
-		"copyrightName": "STROOM Amsterdam"
 	}
 }

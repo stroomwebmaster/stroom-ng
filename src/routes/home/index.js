@@ -36,7 +36,7 @@ export default class Home extends Component {
 
 				<Map content={prerender.data.map} address={prerender.data.globals.address} />
 			
-				<Footer content={prerender.data.footer} address={prerender.data.globals.address} />
+				<Footer content={prerender.data.globals.footer} address={prerender.data.globals.address} />
 			</div>
 		);
 	}

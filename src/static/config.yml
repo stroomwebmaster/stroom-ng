@@ -3,19 +3,6 @@ backend:
   branch: main
 media_folder: content/images
 public_folder: /assets
-# collections:
-#   - name: "pages"
-#     label: "Pages"
-#     label_singular: "Page" # Used in the UI, ie: "New Post"
-#     folder: "content/blog"
-#     create: true
-#     fields:
-#       - { label: "Title", name: "title", widget: "string"}
-#       - { label: "Publish Date", name: "date", widget: "datetime" }
-#       - { label: "Subtitle", name: "subtitle", widget: "string"}
-#       - { label: "Cover", name: "cover", widget: "image"}
-#       - { label: "Tags", name: "tags", widget: "string" }
-#       - { label: "Body", name: "body", widget: "markdown"}
 collections:
   - name: homepage
     label: Homepage
@@ -37,13 +24,98 @@ collections:
             fields:
             - {label: Title, name: title, widget: string}
             - {label: Description, name: description, widget: markdown}
-            - {label: Video Id, name: video_id, widget: string}
+            - {label: Video Id, name: videoId, widget: string}
             - label: Links
               name: links
               widget: list
               fields:
                 - {label: Name, name: name, widget: string}
                 - {label: Url, name: url, widget: string}
-                - {label: New window, name: new_window, widget: boolean}
+                - {label: New window, name: newWindow, widget: boolean}
+          - label: Tiles
+            name: tiles
+            widget: object
+            fields:
+            - label: Tile One
+              name: tileOne
+              widget: object
+              fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Name, name: name, widget: string}
+            - label: Tile Two
+              name: tileTwo
+              widget: object
+              fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Names, name: names, widget: list}
+            - label: Tile Three
+              name: tileThree
+              widget: object
+              fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Name, name: name, widget: string}
+          - label: Map
+            name: map
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+  - name: globals
+    label: Globals
+    files:
+      - label: Globals
+        name: globals
+        file: content/globals.json
+        fields:
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string}
+              - label: Coordinates
+                name: coordinates
+                widget: object
+                fields:
+                  - {label: Lat, name: lat, widget: string}
+                  - {label: Long, name: lng, widget: string}
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: Contact
+                name: contact
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - label: Facebook
+                    name: facebook
+                    widget: object
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Url, name: url, widget: string}
+                  - label: E-mail
+                    name: email
+                    widget: object
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Url, name: url, widget: string}
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: string}
+              - {label: Copyright name, name: copyrightName, widget: string}
+                  
+                
     
 

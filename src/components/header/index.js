@@ -1,5 +1,5 @@
 const Header = (props) => (
-	<header class="overflow-x-hidden">
+	<header>
 		<div class="bg-pink w-hd-80">
 			<div class="container mx-auto px-4 md:px-0">
 				<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-16 pb-16 md:pb-40">

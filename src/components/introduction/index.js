@@ -11,12 +11,13 @@ const Introduction = (props) => (
 					</div>
 				</div>
 			</div>
-			<form 
+			<form
 				action="https://stroomamsterdam.us17.list-manage.com/subscribe/post?u=79f9dab6aa872630f9b994fcd&amp;id=10c844441b"
 				class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 bg-blue py-6 md:py-12 border-b-8 border-magenta px-4 relative md:px-0 mx-4 md:mx-0"
-				method="post" 
-				target="_blank" 
-				novalidate>
+				method="post"
+				target="_blank"
+				novalidate
+			>
 				<div class="col-span-4 md:col-start-2 lg:col-start-2 md:col-span-7 lg:col-span-11">
 					<h2 class="uppercase text-turquoise text-xl md:text-3xl lg:text-4xl font-black font-HelveticaNeueLTPro-BlkEx">{props.content?.newsletterTitle}</h2>
 				</div>

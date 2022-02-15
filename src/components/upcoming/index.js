@@ -31,6 +31,8 @@ export default class Upcoming extends Component {
 	}
 
 	componentDidMount() {
+		// Replace '\' in this string. It is left in from the CMS when using 'shift + enter' to create newline.
+		this.props.content.description = this.props.content?.description.replaceAll(String.fromCharCode(92), '');
 		this.initYouTube();
 	}
 
@@ -61,7 +63,7 @@ export default class Upcoming extends Component {
 							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full  ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
 						</div>
 						<div class="col-span-4 md:col-start-6 md:col-span-3 lg:col-start-10 lg:col-span-3">
-							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex" innerHTML={this.props.content?.description} />
+							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex whitespace-pre-line">{this.props.content?.description}</p>
 							<br />
 							{linkItems}
 						</div>

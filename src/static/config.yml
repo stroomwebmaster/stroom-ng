@@ -47,7 +47,11 @@ collections:
               widget: object
               fields:
                 - {label: Title, name: title, widget: string}
-                - {label: Names, name: names, widget: list}
+                - label: Names
+                  name: names
+                  widget: list
+                  field:
+                    - {widget: string}
             - label: Tile Three
               name: tileThree
               widget: object

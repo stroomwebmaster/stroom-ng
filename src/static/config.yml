@@ -50,7 +50,7 @@ collections:
                 - label: Names
                   name: names
                   widget: list
-                  field:
+                  fields:
                     - {label: Name, name: name, widget: string}
             - label: Tile Three
               name: tileThree

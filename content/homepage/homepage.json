@@ -29,55 +29,58 @@
     "tileTwo": {
       "title": "Leuk om hier te zijn.",
       "names": [
-				{
-					"name": "Iris Penning, 2021"
-				},
-				{  
-					"name": "Jorgen Unom, 2021"
-				},
-				{
-					"name": "Boris van der Ham, 2020"
-				},
-				{
-					"name": "Michline Plukker, 2020"
-				},
-				{
-					"name": "Hugo de Haas van Dorsser, 2020"
-				},
-				{
-					"name": "Rikko Voorberg, 2018"
-				},
-				{
-					"name": "Erno Eskens, 2019"
-				},
-				{
-					"name": "Tim Vreugdenhil, 2019"
-				},
-				{
-					"name": "Tinkebel, 2020"
-				},
-				{
-					"name": "Michiel van Elk, 2017"
-				},
-				{
-					"name": "Linda Polman, 2019"
-				},
-				{
-					"name": "Don Ceder, 2019"
-				},
-				{
-					"name": "Daan Borrel, 2019"
-				},
-				{
-					"name": "Ewald Engelen, 2018"
-				},
-				{
-					"name": "Bram Bakker, 2016"
-				},
-				{
-					"name": "Simon(e) van Saarloos, 2016"
-				}
-    ]
+        {
+          "name": "Iris Penning, 2021"
+        },
+        {
+          "name": "Jorgen Unom, 2021"
+        },
+        {
+          "name": "Boris van der Ham, 2020"
+        },
+        {
+          "name": "Michline Plukker, 2020"
+        },
+        {
+          "name": "Hugo de Haas van Dorsser, 2020"
+        },
+        {
+          "name": "Rikko Voorberg, 2018"
+        },
+        {
+          "name": "Erno Eskens, 2019"
+        },
+        {
+          "name": "Tim Vreugdenhil, 2019"
+        },
+        {
+          "name": "Tinkebel, 2020"
+        },
+        {
+          "name": "Michiel van Elk, 2017"
+        },
+        {
+          "name": "Linda Polman, 2019"
+        },
+        {
+          "name": "Don Ceder, 2019"
+        },
+        {
+          "name": "Daan Borrel, 2019"
+        },
+        {
+          "name": "Ewald Engelen, 2018"
+        },
+        {
+          "name": "Bram Bakker, 2016"
+        },
+        {
+          "name": "Simon(e) van Saarloos, 2016"
+        },
+        {
+          "name": "Gerwin Overeem, 2022"
+        }
+      ]
     },
     "tileThree": {
       "title": "Ik kom spoedig.",

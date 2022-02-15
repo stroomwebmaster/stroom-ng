@@ -32,6 +32,14 @@
     src: url(../assets/HelveticaNeueLTPro-MdCnO.otf) format('opentype');
 }
 
+html, body {
+    overflow-x: hidden;
+    /* Safari compatibility */
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0,0,0);
+}
+
 .dotted-red {
     background-image: url('../assets/ellipse.svg');
     background-size: 20px;

@@ -1,58 +1,58 @@
 {
-	"introduction": {
-		"description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
-		"newsletterTitle": "Nieuwsbrief",
-		"newsletterButton": "Schrijf je in"
-	},
-	"upcoming": {
-		"title": "Aanstaande zondag",
-		"description": "Wie wil weten hoe om te gaan met een gepolariseerde, gespannen tijd moet de geschiedenis in. In februari staan we daarom stil bij Jezus&apos; biograaf Markus.<br /><br />06/02: Gerko Tempelman<br />13/02: Gerko Tempelman<br />20/02: Alaeddine Touhami<br />27/02: Tim Vreugdenhil<br />",
-		"videoId": "G6tjYBHacXc",
-		"links": [
-			{
-				"name": "Archief",
-				"url": "https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg",
-				"newWindow": true
-			},
-			{
-				"name": "Podcast archief",
-				"url": "https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA",
-				"newWindow": true
-			}
-		]
-	},
-	"tiles": {
-		"tileOne": {
-			"title": "Elke zondag om 11 uur.",
-			"name": "Stroominee, 2020"
-		},
-		"tileTwo": {
-			"title": "Leuk om hier te zijn.",
-			"names": [
-				"Iris Penning, 2021",
-				"Jorgen Unom, 2021",
-				"Boris van der Ham, 2020",
-				"Michline Plukker, 2020",
-				"Hugo de Haas van Dorsser, 2020",
-				"Rikko Voorberg, 2018",
-				"Erno Eskens, 2019",
-				"Tim Vreugdenhil, 2019",
-				"Tinkebel, 2020",
-				"Michiel van Elk, 2017",
-				"Linda Polman, 2019",
-				"Don Ceder, 2019",
-				"Daan Borrel, 2019",
-				"Ewald Engelen, 2018",
-				"Bram Bakker, 2016",
-				"Simon(e) van Saarloos, 2016"
-			]
-		},
-		"tileThree": {
-			"title": "Ik kom spoedig.",
-			"name": "Jezus, 33"
-		}
-	},
-	"map": {
-		"title": "Hier moet je zijn"
-	}
+  "introduction": {
+    "description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
+    "newsletterTitle": "Nieuwsbrief",
+    "newsletterButton": "Schrijf je in"
+  },
+  "upcoming": {
+    "title": "Aanstaande zondag",
+    "description": "Wie wil weten hoe om te gaan met een gepolariseerde, gespannen tijd moet de geschiedenis in. In februari staan we daarom stil bij Jezus&apos; biograaf Markus.<br /><br />06/02: Gerko Tempelman<br />13/02: Gerko Tempelman<br />20/02: Alaeddine Touhami<br />27/02: Tim Vreugdenhil<br />",
+    "videoId": "G6tjYBHacXc",
+    "links": [
+      {
+        "name": "Archief",
+        "url": "https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg",
+        "newWindow": true
+      },
+      {
+        "name": "Podcast archief",
+        "url": "https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA",
+        "newWindow": true
+      }
+    ]
+  },
+  "tiles": {
+    "tileOne": {
+      "title": "Elke zondag om 11 uur.",
+      "name": "Gerko Tempelman, Strominee, 2022"
+    },
+    "tileTwo": {
+      "title": "Leuk om hier te zijn.",
+      "names": [
+        "Iris Penning, 2021",
+        "Jorgen Unom, 2021",
+        "Boris van der Ham, 2020",
+        "Michline Plukker, 2020",
+        "Hugo de Haas van Dorsser, 2020",
+        "Rikko Voorberg, 2018",
+        "Erno Eskens, 2019",
+        "Tim Vreugdenhil, 2019",
+        "Tinkebel, 2020",
+        "Michiel van Elk, 2017",
+        "Linda Polman, 2019",
+        "Don Ceder, 2019",
+        "Daan Borrel, 2019",
+        "Ewald Engelen, 2018",
+        "Bram Bakker, 2016",
+        "Simon(e) van Saarloos, 2016"
+      ]
+    },
+    "tileThree": {
+      "title": "Ik kom spoedig.",
+      "name": "Jezus, 33"
+    }
+  },
+  "map": {
+    "title": "Hier moet je zijn"
+  }
 }

@@ -51,7 +51,7 @@ collections:
                   name: names
                   widget: list
                   field:
-                    - {widget: string}
+                    - {label: Name, name: name, widget: string}
             - label: Tile Three
               name: tileThree
               widget: object

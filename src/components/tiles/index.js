@@ -8,7 +8,7 @@ export default class Tiles extends Component {
 		}
 	
 		this.setState({
-			name: this.props.content?.tileTwo?.names[newIndex],
+			name: this.props.content?.tileTwo?.names[newIndex].name,
 			currentNameIndex: newIndex
 		});
 		setTimeout(() => {

@@ -34,14 +34,14 @@ export default class Home extends Component {
 								<div class="md:hidden w-screen border-t-4 border-l-4 border-b-4 border-lila rounded-l-2xl pt-12 pb-24 lg:pb-32 text-right absolute left-100% top-0" />
 								<div class="w-screen border-t-4 border-r-4 border-b-4 border-lila rounded-r-2xl pt-12 pb-24 lg:pb-32 text-right absolute right-5% md:right-0 top-0" />
 								<div class="md:col-start-2 md:col-span-3 lg:col-start-2 lg:col-span-4 pt-12 z-10">
-									<a href={this.props.content?.contact?.facebook?.url} target="_blank" rel="noreferrer noopener" class="block uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fab fa-facebook-square ml-1" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.facebook?.title}</span> &#x9b;</a>
-									<a href={this.props.content?.contact?.email?.url} class="md:hidden uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fas fa-envelope ml-1" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.email?.title}</span> &#x9b;</a>
+									<a href={this.props.content?.contact?.facebook?.url} target="_blank" rel="noreferrer noopener" class="block uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fab fa-facebook-square ml-1" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.facebook?.title}</span> ›</a>
+									<a href={this.props.content?.contact?.email?.url} class="md:hidden uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fas fa-envelope ml-1" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.email?.title}</span> ›</a>
 								</div>
 							</div>
 							<div class="md:col-span-4 lg:col-span-7 relative md:grid md:grid-cols-4 lg:grid-cols-5 hidden">
 								<div class="w-screen border-t-4 border-l-4 border-b-4 border-lila rounded-l-2xl pt-12 pb-24 lg:pb-32 text-right absolute left-0 top-0" />
 								<div class="md:col-start-2 md:col-span-3 lg:col-start-2 lg:col-span-4 pt-12 z-10">
-									<a href={this.props.content?.contact?.email?.url} aria-hidden="true" class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fas fa-envelope" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.email?.title}</span> &#x9b;</a>
+									<a href={this.props.content?.contact?.email?.url} aria-hidden="true" class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn"><span class="fas fa-envelope" />&nbsp;&nbsp;<span class="hover:underline">{this.props.content?.contact?.email?.title}</span> ›</a>
 								</div>
 							</div>
 				

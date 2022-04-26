@@ -11,7 +11,7 @@ export default class Venue extends Component {
     render() {
         return (
             <article class="bg-coal w-hd-80 xl:ml-auto">
-                <img src="./assets/dekas.jpg" class={`${style.locationPhoto}`} />
+                <img src="./assets/dekas.jpg" class={`w-full ${style.locationPhoto}`} />
                 <div class="container mx-auto">
                     <div class="col-span-4 md:col-span-8 lg:col-span-12 grid md:grid-cols-8 lg:grid-cols-12 bg-orange lg:mt--40 border-b-8 border-turquoise py-8 md:py-12">
                         {this.props.content?.description}

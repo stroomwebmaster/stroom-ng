@@ -78,7 +78,7 @@ html, body {
     }
 
     .h-full-dots-bottom {
-        height: calc(100% + 42rem) !important;
+        height: calc(100% + 36rem) !important;
     }
 }
 

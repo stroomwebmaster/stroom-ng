@@ -5,6 +5,7 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Introduction from '../../components/introduction';
 import Map from '../../components/map';
+import Venue from '../../components/venue';
 import Tiles from '../../components/tiles';
 import Upcoming from '../../components/upcoming';
 export default class Home extends Component {
@@ -35,6 +36,8 @@ export default class Home extends Component {
 				<Tiles content={prerender.data.tiles} />
 
 				<Map content={prerender.data.map} address={prerender.data.globals.address} />
+
+				<Venue content={prerender.data.venue} />
 			
 				<Footer content={prerender.data.globals.footer} address={prerender.data.globals.address} />
 			</div>

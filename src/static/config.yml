@@ -63,6 +63,11 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
+          - label: Venue
+            name: map
+            widget: object
+            fields:
+              - {label: Description, name: description, widget: markdown}
   - name: globals
     label: Globals
     files:

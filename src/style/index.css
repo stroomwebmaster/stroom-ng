@@ -63,6 +63,16 @@ html, body {
     height: 0.125rem;
 }
 
+.markup p ~ p {
+    margin-top: 1rem;
+}
+
+.markup a {
+    color: theme('colors.red');
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 @media only screen and (min-width: 769px) {
     .dotted-red {
         background-size: 28px;

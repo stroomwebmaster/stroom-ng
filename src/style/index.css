@@ -63,6 +63,11 @@ html, body {
     height: 0.125rem;
 }
 
+/* Ugly non-Tailwindy hack, I know, but fuck it. */
+.underlined-links-parent a {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 769px) {
     .dotted-red {
         background-size: 28px;

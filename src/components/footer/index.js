@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import Markdown from 'markdown-to-jsx';
 
 export default class Home extends Component {
 	constructor(props) {
@@ -16,7 +17,7 @@ export default class Home extends Component {
 				(<>
 					<li class="mb-6">
 						<h2 class="uppercase text-red text-base md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn">{faq.question}</h2>
-						<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex">{faq.answer}</span>
+						<span class="text-sm md:text-base lg:text-xl font-HelveticaNeueLTPro-Ex underlined-links-parent"><Markdown>{faq.answer}</Markdown></span>
 					</li>
 				</>)
 			);

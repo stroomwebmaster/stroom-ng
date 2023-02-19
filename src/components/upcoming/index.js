@@ -1,4 +1,5 @@
 import { Component } from 'preact';
+import Markdown from 'markdown-to-jsx';
 
 import style from './style';
 
@@ -43,7 +44,7 @@ export default class Upcoming extends Component {
 		if (links) {
 			linkItems = links.map((link) =>
 				(<>
-					<a href={link.url} target={link.newWindow ? '_blank' : '_self'} rel={link.newWindow ? 'noreferrer noopener' : ''} class="uppercase text-white md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn">{link.name} ›</a><br />
+					<a href={link.url} target={link.newWindow ? '_blank' : '_self'} rel={link.newWindow ? 'noreferrer noopener' : ''} class="uppercase text-white md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{link.name} ›</a><br />
 				</>)
 			);
 		}
@@ -63,7 +64,7 @@ export default class Upcoming extends Component {
 							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full  ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
 						</div>
 						<div class="col-span-4 md:col-start-6 md:col-span-3 lg:col-start-10 lg:col-span-3">
-							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex whitespace-pre-line">{this.props.content?.description}</p>
+							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex whitespace-pre-line underlined-links-parent"><Markdown>{this.props.content?.description}</Markdown></p>
 							<br />
 							{linkItems}
 						</div>

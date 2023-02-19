@@ -8,6 +8,7 @@ import Map from '../../components/map';
 import Venue from '../../components/venue';
 import Tiles from '../../components/tiles';
 import Upcoming from '../../components/upcoming';
+import Activities from '../../components/activities';
 export default class Home extends Component {
 	componentDidMount() {
 
@@ -38,6 +39,8 @@ export default class Home extends Component {
 				<Map content={prerender.data.map} address={prerender.data.globals.address} />
 
 				<Venue content={prerender.data.venue} />
+
+				<Activities content={prerender.data.activities} />
 			
 				<Footer content={prerender.data.globals.footer} address={prerender.data.globals.address} />
 			</div>

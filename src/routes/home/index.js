@@ -6,6 +6,7 @@ import Header from '../../components/header';
 import Introduction from '../../components/introduction';
 import Map from '../../components/map';
 import Venue from '../../components/venue';
+import AboutVideo from '../../components/aboutvideo';
 import Tiles from '../../components/tiles';
 import Upcoming from '../../components/upcoming';
 import Activities from '../../components/activities';
@@ -29,19 +30,31 @@ export default class Home extends Component {
 		return (
 			<div>
 				<Header content={prerender.data.globals.header} address={prerender.data.globals.address} />
-				
+
 				<Introduction content={prerender.data.introduction} />
 
 				<Upcoming content={prerender.data.upcoming} />
-			
+
 				<Tiles content={prerender.data.tiles} />
 
 				<Map content={prerender.data.map} address={prerender.data.globals.address} />
 
 				<Venue content={prerender.data.venue} />
 
+				<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-64">
+					<div class="container mx-auto px-4 md:px-0">
+						<h2 className="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta my-3 lg:my-6 font-HelveticaNeueLTPro-BlkEx">{prerender.data.aboutVideos.title}</h2>
+						<div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6">
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[0].id} />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[1].id} />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[2].id} />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[3].id} />
+						</div>
+					</div>
+				</article>
+
 				<Activities content={prerender.data.activities} />
-			
+
 				<Footer content={prerender.data.globals.footer} address={prerender.data.globals.address} />
 			</div>
 		);

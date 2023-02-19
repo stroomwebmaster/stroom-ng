@@ -68,10 +68,22 @@ collections:
             widget: object
             fields:
               - {label: Description, name: description, widget: markdown}
+          - label: About Video
+            name: aboutVideo
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Video IDs
+                name: videoIds
+                widget: list
+                fields:
+                  - {label: ID, name: id, widget: string}
           - label: Activities
             name: activities
             widget: object
-            fields: 
+            fields:
               - {label: Title, name: title, widget: string}
               - label: Activity
                 name: activity
@@ -136,7 +148,3 @@ collections:
                       - {label: Question, name: question, widget: string}
                       - {label: Answer, name: answer, widget: markdown}
               - {label: Copyright name, name: copyrightName, widget: string}
-                  
-                
-    
-

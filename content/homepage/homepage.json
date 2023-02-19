@@ -21,6 +21,15 @@
       }
     ]
   },
+  "aboutVideos": {
+    "title": "Stromers over Stroom",
+    "videoIds": [
+      { "id": "TxECDWS27cQ" },
+      { "id": "eO7DqKAMMTo" },
+      { "id": "ZF00MDEHDbk" },
+      { "id": "TxECDWS27cQ" }
+    ]
+  },
   "tiles": {
     "tileOne": {
       "title": "Elke zondag om 11 uur.",

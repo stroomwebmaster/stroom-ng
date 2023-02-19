@@ -27,10 +27,18 @@ module.exports = {
 			},
 			height: {
 				'16_9': 'calc(56.25vw - 28px)',
+				'9_16lg': 'calc(40vw - 20px)',
+				'9_16md': 'calc(77vw - 20px)',
+				'9_16': 'calc(164vw - 20px)',
 				71: '19.5rem',
 				73: '20.7rem',
 				85: '25rem',
-				105: '32rem'
+				105: '32rem',
+				107: '33rem',
+				110: '15rem'
+			},
+			width: {
+				'9_16': 'calc(100% - 20px)'
 			},
 			fontFamily: {
 				'HelveticaNeueLTPro-BlkEx': ['HelveticaNeueLTPro-BlkEx'],

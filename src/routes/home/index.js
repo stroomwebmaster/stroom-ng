@@ -43,7 +43,7 @@ export default class Home extends Component {
 
 				<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-64">
 					<div class="container mx-auto px-4 md:px-0">
-						<h2 className="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta my-3 lg:my-6 font-HelveticaNeueLTPro-BlkEx">{prerender.data.aboutVideos.title}</h2>
+						<h2 className="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta mb-3 lg:mb-10 font-HelveticaNeueLTPro-BlkEx">{prerender.data.aboutVideos.title}</h2>
 						<div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6">
 							<AboutVideo content={prerender.data.aboutVideos.videoIds[0].id} />
 							<AboutVideo content={prerender.data.aboutVideos.videoIds[1].id} />

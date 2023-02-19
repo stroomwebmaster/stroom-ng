@@ -68,6 +68,18 @@ collections:
             widget: object
             fields:
               - {label: Description, name: description, widget: markdown}
+          - label: Activities
+            name: activities
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - label: Activity
+                name: activity
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Date, name: date, widget: string}
+                  - {label: Description, name: description, widget: markdown}
   - name: globals
     label: Globals
     files:

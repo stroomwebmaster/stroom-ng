@@ -71,6 +71,8 @@ html, body {
     color: theme('colors.red');
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+
 /* Ugly non-Tailwindy hack, I know, but fuck it. */
 .underlined-links-parent a {
     text-decoration: underline;

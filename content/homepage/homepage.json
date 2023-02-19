@@ -89,5 +89,33 @@
   },
   "map": {
     "title": "Hier moet je zijn"
+  },
+  "activities": {
+    "title": "Dit doen we ook nog",
+    "activity": [
+      {
+        "name": "onzekere catechismus",
+        "date": "woensdag 2 maart - zondag 17 april",
+        "description": "In 40 dagen schrijven we een nieuwe catechismus. Ieder voor zich – en tegelijk samen. Een beetje geholpen door de klassieke catechismussen, selecteren we de relevante vragen voor nu. En we formuleren er nieuwe antwoorden op. Of we schaven de oude antwoorden wat bij.\n\n[m﻿eer info](https://stroomamsterdam.nl)"
+      },
+      {
+        "name": "cursus: opvoeden en doorgeven",
+        "date": "do 28 april, di 10 mei, di 24 mei",
+        "description": "Wie kinderen krijgt, komt onherroepelijk de vraag tegen: wat geef ik ze mee. In het algemeen – maar ook als het gaat over het christelijk geloof. Omdat dat nog niet meevalt, organiseren Tim Vreugenhil en Gerko Tempelman een drie-delige cursus. Niet om je vertellen hoe het moet, maar om er samen over door te praten en wat inspiratie op te doen.\n\n[A﻿anmelden via gerko@stroomamsterdam.nl](mailto:gerko@stroomamsterdam.nl)"
+      },
+      {
+        "name": "cursus: christelijke spiritualiteit",
+        "date": "do 9 juni, do 23 juni, do 7 juli ",
+        "description": "Maak kennis met verschillende oeroude vormen van christelijke spiritualiteit. Niet alleen door erover te horen, maar juist door het te doen. Jurjen de Bruijne, ervaringsdeskundige, neemt ons mee. \n\nAanmelden bij [Jurjen de Bruijne: jurjen@hebron.amsterdam](mailto:jurjen@hebron.amsterdam) of Gerko Tempelman: [gerko@stroomamsterdam.nl](mailto:gerko@stroomamsterdam.nl)"
+      },
+      {
+        "name": "stroomweekend",
+        "date": "vrijdag 07 okt - zondag 09 okt",
+        "description": "STROoM gaat naar Nes-Akkrum, voor het laatste mooie zomer-weekend van het jaar. Met iedereen die zich Stromer noemt, dat graag zou willen of gruwelt van het idee. Het wordt als vanouds gezellig!"
+      }
+    ]
+  },
+  "venue": {
+    "description": "Op zondag vind je ons in deze ruimte. Er is koffie, er is muziek, er is een overdenking en regelmatig gaan we met elkaar in gesprek. Wil je horen waar we het zoal over hebben? Beluister dan eens iets uit [ons podcast-archief](https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA)."
   }
 }

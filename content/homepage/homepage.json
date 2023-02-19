@@ -21,23 +21,6 @@
       }
     ]
   },
-  "aboutVideos": {
-    "title": "Stromers over Stroom",
-    "videoIds": [
-      {
-        "id": "TxECDWS27cQ"
-      },
-      {
-        "id": "eO7DqKAMMTo"
-      },
-      {
-        "id": "ZF00MDEHDbk"
-      },
-      {
-        "id": "TxECDWS27cQ"
-      }
-    ]
-  },
   "tiles": {
     "tileOne": {
       "title": "Elke zondag om 11 uur.",
@@ -140,12 +123,21 @@
   "venue": {
     "description": "Op zondag vind je ons in deze ruimte. Er is koffie, er is muziek, er is een overdenking en regelmatig gaan we met elkaar in gesprek. Wil je horen waar we het zoal over hebben? Beluister dan eens iets uit [ons podcast-archief](https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA)."
   },
-  "aboutVideo": {
+  "aboutVideos": {
+    "title": "Stromers over Stroom",
     "videoIds": [
       {
-        "id": "test"
+        "id": "TxECDWS27cQ"
+      },
+      {
+        "id": "eO7DqKAMMTo"
+      },
+      {
+        "id": "ZF00MDEHDbk"
+      },
+      {
+        "id": "TxECDWS27cQ"
       }
-    ],
-    "title": "test"
+    ]
   }
 }

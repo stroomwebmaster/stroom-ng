@@ -69,7 +69,7 @@ collections:
             fields:
               - {label: Description, name: description, widget: markdown}
           - label: About Video
-            name: aboutVideo
+            name: aboutVideos
             widget: object
             fields:
               - label: Title

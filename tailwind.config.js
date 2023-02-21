@@ -14,7 +14,8 @@ module.exports = {
 			black: '#000'
 		},
 		boxShadow: {
-			'sharp-lila': '20px 20px 0px 3px #F687F9'
+			'sharp-lila': '20px 20px 0px 3px #F687F9',
+			'sharp-magenta': '20px 20px 0px 3px #FF00FF'
 		},
 		extend: {
 			inset: {
@@ -51,5 +52,8 @@ module.exports = {
 		}
 	},
 	variants: {},
-	plugins: []
+	plugins: [],
+	safelist: [
+		'shadow-sharp-magenta'
+	]
 };

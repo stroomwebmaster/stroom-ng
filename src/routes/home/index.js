@@ -45,10 +45,10 @@ export default class Home extends Component {
 					<div class="container mx-auto px-4 md:px-0">
 						<h2 className="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta mb-3 lg:mb-10 font-HelveticaNeueLTPro-BlkEx">{prerender.data.aboutVideos.title}</h2>
 						<div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6">
-							<AboutVideo content={prerender.data.aboutVideos.videoIds[0].id} />
-							<AboutVideo content={prerender.data.aboutVideos.videoIds[1].id} />
-							<AboutVideo content={prerender.data.aboutVideos.videoIds[2].id} />
-							<AboutVideo content={prerender.data.aboutVideos.videoIds[3].id} />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[0].id} shadow="lila" />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[1].id} shadow="lila" />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[2].id} shadow="magenta" />
+							<AboutVideo content={prerender.data.aboutVideos.videoIds[3].id} shadow="lila" />
 						</div>
 					</div>
 				</article>

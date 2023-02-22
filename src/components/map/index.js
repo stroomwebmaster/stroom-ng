@@ -42,7 +42,7 @@ export default class Map extends Component {
 					text: stroomAddress,
 					fontWeight: 'bold',
 					fontSize: '16px',
-					color: '#0000FF'
+					color: '#282828'
 				}
 			});
 		});

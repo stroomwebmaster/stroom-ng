@@ -26,12 +26,20 @@ export default class Map extends Component {
 			new google.maps.Marker({ // eslint-disable-line
 				position: stroomLatLng,
 				map,
-				animation: google.maps.Animation.DROP, // eslint-disable-line
+				animation: google.maps.Animation.BOUNCE, // eslint-disable-line
+				icon: {
+					path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+					scale: 5,
+					strokeWeight: 2,
+					strokeColor: '#FF00FF',
+					fillColor: '#F9D9F9',
+					fillOpacity: 0.5
+				},
 				label: {
 					text: stroomAddress,
 					fontWeight: 'bold',
 					fontSize: '16px',
-					color: 'blue'
+					color: '#0000FF'
 				}
 			});
 		});

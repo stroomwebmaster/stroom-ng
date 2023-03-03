@@ -1,32 +1,14 @@
-import { Component } from 'preact';
+import AboutVideo from './aboutvideo';
 
-const YTPlayer = require('yt-player');
-
-export default class AboutVideo extends Component {
-
-	state = {
-		player: null,
-		video: null
-	};
-
-	initYouTube() {
-		this.setState({
-			player: new YTPlayer('#aboutvideo' + this.props.content),
-			video: `https://www.youtube.com/embed/${this.props.content}?enablejsapi=1`
-		});
-	}
-
-	componentDidMount() {
-		this.initYouTube();
-	}
-
-	render(props, state, context) {
-		return (
-			<div class={`col-span-3 bg-black w-9_16 md:h-9_16md lg:h-9_16lg h-9_16 even:lg:mt-12 odd:lg:mt-0 mt-6 shadow-sharp-${props.shadow}`}>
-				<iframe id={`aboutvideo${props.content}`} src={state.video} class="w-full h-full" frameBorder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding"
-						allowFullScreen />
+const AboutVideos = (props) => (
+	<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-64">
+		<div class="container mx-auto px-4 md:px-0">
+			<h2 className="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta mb-3 lg:mb-10 font-HelveticaNeueLTPro-BlkEx">{props.content?.title}</h2>
+			<div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-6">
+				{props.content?.videoIds.map((video, index) => <AboutVideo content={video.id} index={index} />)}
 			</div>
-		);
-	}
-}
+		</div>
+	</article>
+);
+
+export default AboutVideos;

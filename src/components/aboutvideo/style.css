@@ -1,0 +1,30 @@
+.thumbnailContainer {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.thumbnail {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    object-fit: cover;
+    height: 100%;
+}
+
+.play {
+    width: 48px;
+    height: 60px;
+    border-color: transparent transparent transparent theme('colors.orange');
+    border-style: solid;
+    border-width: 30px 0 30px 48px;
+    box-sizing: border-box;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -30px;
+    pointer-events: none;
+}

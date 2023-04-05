@@ -9,7 +9,7 @@ export default class Upcoming extends Component {
 	initYouTube() {
 		this.setState({
 			player: new YTPlayer('#youtubevideo'),
-			thumbnail: `https://img.youtube.com/vi/${this.props.content?.videoId}/hqdefault.jpg`,
+			thumbnail: `https://img.youtube.com/vi/${this.props.content?.videoId}/maxresdefault.jpg`,
 			video: `https://www.youtube.com/embed/${this.props.content?.videoId}?enablejsapi=1`
 		});
 	}
@@ -61,7 +61,7 @@ export default class Upcoming extends Component {
 								<img src={this.state.thumbnail} class={`w-full ${style.thumbnail}`} alt="thumbnail" onClick={this.onThumbnailClick} />
 							</figure>
 							<div id="youtubebutton" class={`${style.play} ${this.state.isPlaying ? 'hidden' : ''}`} />
-							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full  ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
+							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
 						</div>
 						<div class="col-span-4 md:col-start-6 md:col-span-3 lg:col-start-10 lg:col-span-3">
 							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-4 md:mb-16 text-white font-HelveticaNeueLTPro-Ex whitespace-pre-line underlined-links-parent"><Markdown>{this.props.content?.description}</Markdown></p>

@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Helpen",
+    "subTitle": "Strooooooooomen"
+  },
+  "introduction": {
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+  },
+  "tiles": {
+    "title": "In Gold we trust",
+    "tileOne": {
+      "title": "€ 50,-",
+      "buttonText": "Doneer ›"
+    },
+    "tileTwo": {
+      "title": "€ 150,-",
+      "buttonText": "Doneer ›"
+    },
+    "tileThree": {
+      "title": "€ 500,-",
+      "buttonText": "Doneer ›"
+    },
+    "secondaryButton": "Of kies zelf een bedrag ›"
+  },
+  "newsletter": {
+    "title": "Doneer meer",
+    "button": "Verstuur",
+    "subtitle": "Meer weten over onze plannen?",
+    "contact": [
+      {
+        "name": "Mail de oudsten",
+        "url": "mailto:oudsten@stroomamsterdam.nl"
+      },
+      {
+        "name": "Mail Gerko",
+        "url": "mailto:gerko@stroomamsterdam.nl"
+      }
+    ]
+  },
+  "about": {
+    "title": "Over STROoM",
+    "description": "STROoM is work in progress. Al zo'n twintig jaar vragen we: wat zou STROoM moeten zijn? In januari en februari beginnen we met die vraag. Eén ding is alvast helder: een kerk gaat ongemak niet uit de weg.",
+    "videoId": "eLf9GMctVlI",
+    "links": [
+      {
+        "name": "Stroomamsterdam.nl",
+        "url": "https://stroomamsterdam.nl",
+        "newWindow": false
+      }
+    ]
+  }
+}

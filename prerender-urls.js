@@ -15,6 +15,15 @@ module.exports = () => {
 		}
 	});
 
+	const donation = JSON.parse(fs.readFileSync(join('content', 'donation', 'donation.json'), 'utf-8'));
+	pages.push({
+		url: '/donatie',
+		//seo: to do
+		data: {
+			...donation
+		}
+	});
+
 	const globals = JSON.parse(fs.readFileSync(join('content', 'globals.json'), 'utf-8'));
 	pages.forEach((page) => {
 		page.data = {

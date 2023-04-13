@@ -44,7 +44,7 @@ export default class AboutVideo extends Component {
 
 	render(props, state) {
 		return (
-			<div class={`col-span-3 bg-black w-9_16 md:h-9_16md lg:h-9_16lg h-9_16 even:lg:mt-12 odd:lg:mt-0 mt-6 shadow-sharp-${props.index === 2 ? 'magenta' : 'lila'} ${props.index === 0 ? 'hidden sm:block' : 'block'}`}>
+			<div class={`col-span-3 bg-black aspect-9/16 even:lg:mt-12 odd:lg:mt-0 mt-6 md:mx-3 first:ml-0 last:mr-0 shadow-sharp-${props.index === 2 ? 'magenta' : 'lila'} ${props.index === 0 ? 'hidden sm:block' : 'block'}`}>
 				<figure className={`${style.thumbnailContainer} ${this.state.isPlaying ? 'hidden' : ''}`}>
 					<img src={this.state.thumbnail} className={`w-full ${style.thumbnail}`} alt="thumbnail" onClick={this.onThumbnailClick} />
 				</figure>

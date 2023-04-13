@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: feature/venue
 media_folder: content/images
 public_folder: /assets
 collections:
@@ -63,6 +63,35 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
+          - label: Venue
+            name: venue
+            widget: object
+            fields:
+              - {label: Description, name: description, widget: markdown}
+          - label: About Video
+            name: aboutVideos
+            widget: object
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: Video IDs
+                name: videoIds
+                widget: list
+                fields:
+                  - {label: ID, name: id, widget: string}
+          - label: Activities
+            name: activities
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: Activity
+                name: activity
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Date, name: date, widget: string}
+                  - {label: Description, name: description, widget: markdown}
   - name: globals
     label: Globals
     files:
@@ -119,7 +148,3 @@ collections:
                       - {label: Question, name: question, widget: string}
                       - {label: Answer, name: answer, widget: markdown}
               - {label: Copyright name, name: copyrightName, widget: string}
-                  
-                
-    
-

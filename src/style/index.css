@@ -63,6 +63,16 @@ html, body {
     height: 0.125rem;
 }
 
+.markup p ~ p {
+    margin-top: 1rem;
+}
+
+.markup a {
+    color: theme('colors.red');
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 /* Ugly non-Tailwindy hack, I know, but fuck it. */
 .underlined-links-parent a {
     text-decoration: underline;

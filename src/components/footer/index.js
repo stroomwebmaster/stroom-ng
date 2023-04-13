@@ -25,9 +25,9 @@ export default class Home extends Component {
 
 		return (
 			<article class="bg-coal">
-				<div class="bg-coal -top-6 md:top-0 -mb-12 relative overflow-x-hidden">
+				<div class="bg-coal -mb-12 relative overflow-x-hidden">
 					<div class="container mx-auto px-4 md:px-0">
-						<div class="grid md:grid-cols-8 lg:grid-cols-12 gap-4 pt-20 md:pt-40">
+						<div class="grid md:grid-cols-8 lg:grid-cols-12 gap-4 pt-10 md:pt-20">
 							<div class="col-span-4 md:col-span-7 md:col-start-2 lg:col-span-11 lg:col-start-2">
 								<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta my-6 lg:my-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.contact?.title}</h2>
 							</div>

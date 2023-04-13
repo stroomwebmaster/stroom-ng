@@ -14,7 +14,8 @@ module.exports = {
 			black: '#000'
 		},
 		boxShadow: {
-			'sharp-lila': '20px 20px 0px 3px #F687F9'
+			'sharp-lila': '20px 20px 0px 3px #F687F9',
+			'sharp-magenta': '20px 20px 0px 3px #FF00FF'
 		},
 		extend: {
 			inset: {
@@ -26,11 +27,15 @@ module.exports = {
 				'100%': '100%'
 			},
 			height: {
-				'16_9': 'calc(56.25vw - 28px)',
 				71: '19.5rem',
 				73: '20.7rem',
 				85: '25rem',
-				105: '32rem'
+				105: '32rem',
+				107: '33rem',
+				110: '15rem'
+			},
+			aspectRatio: {
+				'9/16': '9 / 16'
 			},
 			fontFamily: {
 				'HelveticaNeueLTPro-BlkEx': ['HelveticaNeueLTPro-BlkEx'],
@@ -43,5 +48,8 @@ module.exports = {
 		}
 	},
 	variants: {},
-	plugins: []
+	plugins: [],
+	safelist: [
+		'shadow-sharp-magenta'
+	]
 };

@@ -1,4 +1,3 @@
-import { Component } from 'preact';
 import { usePrerenderData } from '@preact/prerender-data-provider';
 
 import Footer from '../../components/footer';
@@ -8,37 +7,24 @@ import DonationTiles from '../../components/donationtiles';
 import DonationInfo from '../../components/donationinfo';
 import About from '../../components/about';
 
-export default class Donation extends Component {
-	componentDidMount() {
+const Donation = (props) => {
+	const [prerender] = usePrerenderData(props);
 
-		/*
-		* Netlify CMS's accept invite link land on home page.
-		* This redirection takes it to the right place(/admin).
-		*/
+	return (
+		<div>
+			<Header content={prerender.data.header} />
 
-		if (window !== undefined && window.location.href.includes('#invite_token')) {
-			const { href } = window.location;
-			window.location.href= `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`;
-		}
-	}
+			<Introduction content={prerender.data.introduction} />
 
-	render() {
-		const [prerender] = usePrerenderData(this.props);
+			<DonationTiles content={prerender.data.donation} />
 
-		return (
-			<div>
-				<Header content={prerender.data.header} />
+			<DonationInfo content={prerender.data.info} />
 
-				<Introduction content={prerender.data.introduction} />
+			<About content={prerender.data.about} />
 
-				<DonationTiles content={prerender.data.donation} />
+			<Footer content={prerender.data.globals.footer} faq={prerender.data.footer.faq} />
+		</div>
+	);
+};
 
-				<DonationInfo content={prerender.data.info} />
-
-				<About content={prerender.data.about} />
-
-				<Footer content={prerender.data.globals.footer} faq={prerender.data.footer.faq} />
-			</div>
-		);
-	}
-}
+export default Donation;

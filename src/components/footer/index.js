@@ -9,7 +9,7 @@ export default class Home extends Component {
 	}
 
 	render() {
-		const faqs = this.props.content?.faq?.items;
+		const faqs = this.props.faq?.items;
 		let faqItems = null;
 
 		if (faqs) {

@@ -1,8 +1,6 @@
-const { generateFileList } = require('./src/crawler');
 const { join } = require('path');
 const fs = require('fs');
 
-const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 module.exports = () => {
 	const pages = [];
 

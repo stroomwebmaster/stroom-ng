@@ -1,4 +1,8 @@
 {
+  "header": {
+    "title": "Stroom Amsterdam",
+    "subTitle": "Zondagochtend 11 uur"
+  },
   "introduction": {
     "description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
     "newsletterTitle": "Nieuwsbrief",
@@ -147,5 +151,40 @@
         "id": "TxECDWS27cQ"
       }
     ]
+  },
+  "footer": {
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Op welke dag vindt STROOM plaats?",
+          "answer": "Op zondag."
+        },
+        {
+          "question": "Hoe laat vindt STROOM op zondag plaats?",
+          "answer": "Om 11 uur."
+        },
+        {
+          "question": "Waar vindt STROOM plaats op zondag om 11 uur?",
+          "answer": "Op de Nieuwe Herengracht 18 in Amsterdam."
+        },
+        {
+          "question": "Is er ook een kinderprogramma?",
+          "answer": "Zeker."
+        },
+        {
+          "question": "Komt Jezus ook?",
+          "answer": "Spoedig."
+        },
+        {
+          "question": "Zal ik me inschrijven voor de nieuwsbrief?",
+          "answer": "Ja, doen!"
+        },
+        {
+          "question": "Zijn jullie eigenlijk een ANBI? 🤑",
+          "answer": "Ja, kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf). Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
+        }
+      ]
+    }
   }
 }

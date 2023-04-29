@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/venue
+  branch: feature/donation
 media_folder: content/images
 public_folder: /assets
 collections:
@@ -11,6 +11,12 @@ collections:
         name: homepage
         file: content/homepage/homepage.json
         fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
           - label: Introduction
             name: introduction
             widget: object
@@ -92,6 +98,110 @@ collections:
                   - {label: Name, name: name, widget: string}
                   - {label: Date, name: date, widget: string}
                   - {label: Description, name: description, widget: markdown}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: markdown}
+  - name: donation
+    label: Donation
+    files:
+      - label: Donation
+        name: donation
+        file: content/donation/donation.json
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
+          - label: Introduction
+            name: introduction
+            widget: object
+            fields:
+              - {label: Description, name: description, widget: markdown}
+          - label: Donation
+            name: donation
+            widget: object
+            fields:
+              - {label: Title start, name: titleStart, widget: string}
+              - {label: Title middle, name: titleMiddle, widget: string}
+              - {label: Title end, name: titleEnd, widget: string}
+              - label: Tile One
+                name: tileOne
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Button text, name: buttonText, widget: string}
+                  - {label: Button url, name: buttonUrl, widget: string}
+              - label: Tile Two
+                name: tileTwo
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Button text, name: buttonText, widget: string}
+                  - {label: Button url, name: buttonUrl, widget: string}
+              - label: Tile Three
+                name: tileThree
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Button text, name: buttonText, widget: string}
+                  - {label: Button url, name: buttonUrl, widget: string}
+              - {label: Secondary button text, name: secondaryButtonText, widget: string}
+              - {label: Secondary button url, name: secondaryButtonUrl, widget: string}
+          - label: Info
+            name: info
+            widget: object
+            fields:
+            - {label: Newsletter title, name: newsletterTitle, widget: string}
+            - {label: Newsletter description, name: newsletterDescription, widget: string}
+            - {label: Newsletter button text, name: newsletterButton, widget: string}
+            - {label: Title, name: title, widget: string}
+            - label: Links
+              name: links
+              widget: list
+              fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Url, name: url, widget: string}
+          - label: About
+            name: about
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Description, name: description, widget: markdown}
+            - {label: Video Id, name: videoId, widget: string}
+            - label: Links
+              name: links
+              widget: list
+              fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Url, name: url, widget: string}
+                - {label: New window, name: newWindow, widget: boolean}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: markdown}
   - name: globals
     label: Globals
     files:
@@ -110,12 +220,6 @@ collections:
                 fields:
                   - {label: Lat, name: lat, widget: string}
                   - {label: Long, name: lng, widget: string}
-          - label: Header
-            name: header
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subTitle, widget: string}
           - label: Footer
             name: footer
             widget: object
@@ -137,14 +241,4 @@ collections:
                     fields:
                       - {label: Title, name: title, widget: string}
                       - {label: Url, name: url, widget: string}
-              - label: FAQ
-                name: faq
-                widget: object
-                fields:
-                  - label: Items
-                    name: items
-                    widget: list
-                    fields:
-                      - {label: Question, name: question, widget: string}
-                      - {label: Answer, name: answer, widget: markdown}
               - {label: Copyright name, name: copyrightName, widget: string}

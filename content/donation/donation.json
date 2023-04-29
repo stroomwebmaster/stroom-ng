@@ -4,29 +4,36 @@
     "subTitle": "Strooooooooomen"
   },
   "introduction": {
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
   },
-  "tiles": {
-    "title": "In Gold we trust",
+  "donation": {
+    "titleStart": "In Go",
+    "titleMiddle": "l",
+    "titleEnd": "d we trust",
     "tileOne": {
       "title": "€ 50,-",
-      "buttonText": "Doneer ›"
+      "buttonText": "Doneer",
+      "buttonUrl": "https://google.nl/"
     },
     "tileTwo": {
       "title": "€ 150,-",
-      "buttonText": "Doneer ›"
+      "buttonText": "Doneer",
+      "buttonUrl": "https://google.nl/"
     },
     "tileThree": {
       "title": "€ 500,-",
-      "buttonText": "Doneer ›"
+      "buttonText": "Doneer",
+      "buttonUrl": "https://google.nl/"
     },
-    "secondaryButton": "Of kies zelf een bedrag ›"
+    "secondaryButtonText": "Of kies zelf een bedrag",
+    "secondaryButtonUrl": "https://google.nl/"
   },
-  "newsletter": {
-    "title": "Doneer meer",
-    "button": "Verstuur",
-    "subtitle": "Meer weten over onze plannen?",
-    "contact": [
+  "info": {
+    "newsletterTitle": "Doneer meer",
+    "newsletterDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "newsletterButton": "Verstuur",
+    "title": "Meer weten over onze plannen?",
+    "links": [
       {
         "name": "Mail de oudsten",
         "url": "mailto:oudsten@stroomamsterdam.nl"
@@ -39,7 +46,7 @@
   },
   "about": {
     "title": "Over STROoM",
-    "description": "STROoM is work in progress. Al zo'n twintig jaar vragen we: wat zou STROoM moeten zijn? In januari en februari beginnen we met die vraag. Eén ding is alvast helder: een kerk gaat ongemak niet uit de weg.",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
     "videoId": "eLf9GMctVlI",
     "links": [
       {
@@ -48,5 +55,20 @@
         "newWindow": false
       }
     ]
+  },
+  "footer": {
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Vraag 1?",
+          "answer": "Antwoord 1."
+        },
+        {
+          "question": "Vraag 2?",
+          "answer": "Antwoord 2."
+        }
+      ]
+    }
   }
 }

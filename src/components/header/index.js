@@ -4,7 +4,7 @@ const Header = (props) => (
 			<div class="container mx-auto px-4 md:px-0">
 				<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-16 pb-16 md:pb-40">
 					<div class="col-span-2 md:col-span-3 lg:col-span-4 text-5xl pb-2 md-grid-cols-8 lg:grid-cols-12">
-						<img class="w-full" src="./assets/str00m_logo_animated.gif" alt="logo" />
+						<img class="w-full" src="/assets/str00m_logo_animated.gif" alt="logo" />
 					</div>
 					<button class="col-span-1 col-start-4 md:col-start-8 md:col-span-1 lg:col-start-12 lg:col-span-1 h-8 md:h-10 w-full flex-wrap flex justify-end hidden" aria-label="menu">
 						<span class="w-12 h-05 md:h-1 bg-red block mb-1" />

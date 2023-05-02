@@ -30,13 +30,13 @@
   },
   "info": {
     "newsletterTitle": "Doneer meer",
-    "newsletterDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "newsletterDescription": "Vul zelf een bedrag in",
     "newsletterButton": "Verstuur",
     "title": "Meer weten over onze plannen?",
     "links": [
       {
         "name": "Mail de oudsten",
-        "url": "mailto:oudsten@stroomamsterdam.nl"
+        "url": "mailto:info@stroomamsterdam.nl"
       },
       {
         "name": "Mail Gerko",
@@ -46,8 +46,8 @@
   },
   "about": {
     "title": "Over STROoM",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
-    "videoId": "eLf9GMctVlI",
+    "description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
+    "videoId": "NFiPjglNHf4",
     "links": [
       {
         "name": "Stroomamsterdam.nl",
@@ -61,12 +61,12 @@
       "title": "FAQ",
       "items": [
         {
-          "question": "Vraag 1?",
-          "answer": "Antwoord 1."
+          "question": "Zijn jullie een ANBI?",
+          "answer": "Tuurlijk. Kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf)."
         },
         {
-          "question": "Vraag 2?",
-          "answer": "Antwoord 2."
+          "question": "Ik ben digibeet, maar heb wel geld. Wat nu?",
+          "answer": "Old school! Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
         }
       ]
     }

@@ -235,8 +235,26 @@ collections:
                     fields:
                       - {label: Title, name: title, widget: string}
                       - {label: Url, name: url, widget: string}
+                  - label: Instagram
+                    name: instagram
+                    widget: object
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Url, name: url, widget: string}
+                  - label: Whatsapp
+                    name: whatsapp
+                    widget: object
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Url, name: url, widget: string}
                   - label: E-mail
                     name: email
+                    widget: object
+                    fields:
+                      - {label: Title, name: title, widget: string}
+                      - {label: Url, name: url, widget: string}
+                  - label: E-mail 2
+                    name: email2
                     widget: object
                     fields:
                       - {label: Title, name: title, widget: string}

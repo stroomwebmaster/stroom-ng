@@ -13,9 +13,21 @@
         "title": "Facebookgroep",
         "url": "https://www.facebook.com/groups/STROOMAmsterdam"
       },
+      "instagram": {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/stroomamsterdam"
+      },
+      "whatsapp": {
+        "title": "Wekelijkse info-app",
+        "url": "https://chat.whatsapp.com/B8sHKzosWyHEpZtdOE5sRq "
+      },
       "email": {
-        "title": "jezus@stroomamsterdam.nl",
-        "url": "mailto:jezus@stroomamsterdam.nl"
+        "title": "info@stroomamsterdam.nl",
+        "url": "mailto:info@stroomamsterdam.nl"
+      },
+      "email2": {
+        "title": "gerko@stroomamsterdam.nl",
+        "url": "mailto:gerko@stroomamsterdam.nl"
       }
     },
     "copyrightName": "STROOM Amsterdam"

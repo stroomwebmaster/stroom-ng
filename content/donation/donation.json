@@ -13,20 +13,20 @@
     "tileOne": {
       "title": "€ 50,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://google.nl/"
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-50"
     },
     "tileTwo": {
       "title": "€ 150,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://google.nl/"
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-150"
     },
     "tileThree": {
       "title": "€ 500,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://google.nl/"
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-500"
     },
     "secondaryButtonText": "Of kies zelf een bedrag",
-    "secondaryButtonUrl": "https://google.nl/"
+    "secondaryButtonUrl": "https://donorbox.org/stroom-amsterdam"
   },
   "info": {
     "newsletterTitle": "Doneer een idee...",

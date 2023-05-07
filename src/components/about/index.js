@@ -44,6 +44,7 @@ export default class Upcoming extends Component {
 		if (links) {
 			linkItems = links.map((link) =>
 				(<>
+					{link.prefix && <span class="uppercase md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{link.prefix}&nbsp;</span>}
 					<a href={link.url} target={link.newWindow ? '_blank' : '_self'} rel={link.newWindow ? 'noreferrer noopener' : ''} class="uppercase text-blue md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{link.name} ›</a><br />
 				</>)
 			);

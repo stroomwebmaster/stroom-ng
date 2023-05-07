@@ -31,7 +31,8 @@
   "info": {
     "newsletterTitle": "Doneer een idee...",
     "newsletterDescription": "...of je netwerk. Of je pand. Of je tijd. Of je skills. Of iets anders. Doneer via mail!",
-    "newsletterButton": "Doneer via mail",
+    "newsletterButton": "Verstuur je idee",
+    "newsletterButtonUrl": "mailto:info@stroomamsterdam.nl",
     "title": "Meer weten over onze plannen?",
     "links": [
       {
@@ -50,7 +51,8 @@
     "videoId": "NFiPjglNHf4",
     "links": [
       {
-        "name": "Meer weten? Mail Strominee Gerko",
+        "prefix": "Meer weten?",
+        "name": "Mail Strominee Gerko",
         "url": "mailto:info@stroomamsterdam.nl",
         "newWindow": false
       }

@@ -185,6 +185,7 @@ collections:
               name: links
               widget: list
               fields:
+                - {label: Prefix, name: prefix, widget: string}
                 - {label: Name, name: name, widget: string}
                 - {label: Url, name: url, widget: string}
                 - {label: New window, name: newWindow, widget: boolean}

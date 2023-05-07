@@ -177,7 +177,11 @@
         },
         {
           "question": "Zijn jullie eigenlijk een ANBI? 🤑",
-          "answer": "Ja, kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf). Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
+          "answer": "Ja, kijk [dit](https://stroomamsterdam.nl/assets/anbi.pdf)."
+        },
+        {
+          "question": "Hoe kan ik m'n geld bij jullie kwijt?",
+          "answer": "[hiero](/donatie)."
         }
       ]
     }

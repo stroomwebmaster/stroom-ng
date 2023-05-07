@@ -16,12 +16,12 @@ const DonationTiles = (props) => (
 				<div class="grid grid-cols-4 md:grid-cols-12 gap-4 relative pb-16 lg:pb-24">		
 					<div class="col-span-4 bg-orange border-b-8 border-turquoise pb-4 md:pb-0 md:mb-8 lg:mb-12 z-10 md:px-8 text-center">
 						<p class="text-red-outline text-5xl md:text-3xl lg:text-5xl leading-normal md:leading-normal lg:leading-normal my-4 md:my-8 font-black uppercase font-HelveticaNeueLTPro-BlkExO">{props.content?.tileOne?.title}</p>
-						<a href={props.content?.tileThree?.buttonUrl} class="uppercase text-red md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{props.content?.tileOne?.buttonText} ›</a>
+						<a href={props.content?.tileOne?.buttonUrl} class="uppercase text-red md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{props.content?.tileOne?.buttonText} ›</a>
 					</div>
 			
 					<div class="col-span-4 bg-blue border-b-8 border-lila pb-4 md:pb-8 lg:pb-12 md:mt-8 lg:mt-12 z-10 md:px-8 text-center">
 						<p class="text-turquoise text-5xl md:text-3xl lg:text-5xl leading-normal md:leading-normal lg:leading-normal my-4 md:my-8 font-black uppercase font-HelveticaNeueLTPro-BlkExO">{props.content?.tileTwo?.title}</p>
-						<a href={props.content?.tileThree?.buttonUrl} class="uppercase text-turquoise md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{props.content?.tileTwo?.buttonText} ›</a>
+						<a href={props.content?.tileTwo?.buttonUrl} class="uppercase text-turquoise md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{props.content?.tileTwo?.buttonText} ›</a>
 					</div>
 			
 					<div class="col-span-4 bg-magenta border-b-8 border-orange pb-4 md:pb-0 md:mb-8 lg:mb-12 z-10 md:px-8 text-center">

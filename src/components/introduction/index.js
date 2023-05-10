@@ -13,12 +13,13 @@ export default class Introduction extends Component {
 						<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 relative">
 							<div class="dotted-red absolute w-1/2 h-full-dots-top -top-6 md:-top-12 -right-24 md:-right-40" />
 							<div class="col-span-3 md:col-start-2 lg:col-start-2 md:col-span-4 lg:col-span-6 my-12 md:mt-24 md:mb-20 lg:mb-40">
-								<p class="text-coal text-sm md:text-lg lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-8 font-HelveticaNeueLTPro-Ex pl-4 whitespace-pre-line">
+								<p class="text-coal text-sm md:text-lg lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mb-8 font-HelveticaNeueLTPro-Ex pl-4 whitespace-pre-line">
 									{this.props.content?.description}
 								</p>
 							</div>
 						</div>
 					</div>
+					{this.props.showNewsletterBox &&
 					<form
 						action="https://stroomamsterdam.us17.list-manage.com/subscribe/post?u=79f9dab6aa872630f9b994fcd&amp;id=10c844441b"
 						class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 bg-blue py-6 md:py-12 border-b-8 border-magenta px-4 relative md:px-0 mx-4 md:mx-0"
@@ -35,7 +36,7 @@ export default class Introduction extends Component {
 						<div class="col-span-4 md:col-span-2 lg:col-span-3">
 							<input type="submit" class="w-full bg-magenta py-3 text-white uppercase text-lg lg:text-2xl font-semibold font-HelveticaNeueLTPro-MdCn cursor-pointer" value={this.props.content?.newsletterButton} />
 						</div>
-					</form>
+					</form>}
 				</div>
 			</article>
 		);

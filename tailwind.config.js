@@ -18,6 +18,9 @@ module.exports = {
 			'sharp-magenta': '20px 20px 0px 3px #FF00FF'
 		},
 		extend: {
+			zIndex: {
+				'-10': '-10'
+			},
 			inset: {
 				'-6': '-2rem',
 				'-12': '-4rem',

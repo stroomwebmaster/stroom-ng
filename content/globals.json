@@ -6,10 +6,6 @@
       "lng": 4.903751897899311
     }
   },
-  "header": {
-    "title": "Stroom Amsterdam",
-    "subTitle": "Zondagochtend 11 uur"
-  },
   "footer": {
     "contact": {
       "title": "Connect",
@@ -17,43 +13,22 @@
         "title": "Facebookgroep",
         "url": "https://www.facebook.com/groups/STROOMAmsterdam"
       },
+      "instagram": {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/stroomamsterdam"
+      },
+      "whatsapp": {
+        "title": "Wekelijkse info-app",
+        "url": "https://chat.whatsapp.com/B8sHKzosWyHEpZtdOE5sRq "
+      },
       "email": {
-        "title": "jezus@stroomamsterdam.nl",
-        "url": "mailto:jezus@stroomamsterdam.nl"
+        "title": "info@stroomamsterdam.nl",
+        "url": "mailto:info@stroomamsterdam.nl"
+      },
+      "email2": {
+        "title": "gerko@stroomamsterdam.nl",
+        "url": "mailto:gerko@stroomamsterdam.nl"
       }
-    },
-    "faq": {
-      "title": "FAQ",
-      "items": [
-        {
-          "question": "Op welke dag vindt STROOM plaats?",
-          "answer": "Op zondag."
-        },
-        {
-          "question": "Hoe laat vindt STROOM op zondag plaats?",
-          "answer": "Om 11 uur."
-        },
-        {
-          "question": "Waar vindt STROOM plaats op zondag om 11 uur?",
-          "answer": "Op de Nieuwe Herengracht 18 in Amsterdam."
-        },
-        {
-          "question": "Is er ook een kinderprogramma?",
-          "answer": "Zeker."
-        },
-        {
-          "question": "Komt Jezus ook?",
-          "answer": "Spoedig."
-        },
-        {
-          "question": "Zal ik me inschrijven voor de nieuwsbrief?",
-          "answer": "Ja, doen!"
-        },
-        {
-          "question": "Zijn jullie eigenlijk een ANBI? 🤑",
-          "answer": "Ja, kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf). Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
-        }
-      ]
     },
     "copyrightName": "STROOM Amsterdam"
   }

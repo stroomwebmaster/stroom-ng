@@ -1,0 +1,88 @@
+{
+  "header": {
+    "title": "geld moet ",
+    "subTitle": "Stro0o0o0omen"
+  },
+  "introduction": {
+    "description": "Al ruim vijftien jaar verbindt STROoM Amsterdammers \nmet zichzelf, elkaar en God. Want een hartgrondig leven geeft zin aan onze stad. \n\nAfgelopen jaar startten we vier nieuwe ‘tafelkringen’, waarin mensen de maaltijd en hun leven met elkaar delen. Ook hebben we een wekelijks kinderprogramma opgezet voor zo’n 35 kids van 4-, en een maandelijks programma voor 4+. We namen iemand aan die met de methodiek van Godly Play dit programma doorontwikkelt. Via samenwerkingen en online presentie zorgden we dat Amsterdammers ons makkelijker wisten te vinden. \n\nEn we hebben grote plannen. We willen toewerken naar een wekelijkse 4+ kindergroep en willen drie personen opleiden in de Godly Play methodiek. We werken aan een gezonde community. We verwelkomen nieuwkomers, ontwikkelen een pastoraal team en een veiligheidsprotocol. Tot slot willen we een doordacht en betrokken diaconaal programma opzetten om de stad te laten delen in onze overvloed van talent, tijd en geld. \n\nHelp je mee om STROoM te laten stromen?"
+  },
+  "donation": {
+    "titleStart": "In Go",
+    "titleMiddle": "l",
+    "titleEnd": "d we trust",
+    "tileOne": {
+      "title": "€ 50,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-50"
+    },
+    "tileTwo": {
+      "title": "€ 150,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-150"
+    },
+    "tileThree": {
+      "title": "€ 500,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-500"
+    },
+    "secondaryButtonText": "Of kies zelf een bedrag",
+    "secondaryButtonUrl": "https://donorbox.org/stroom-amsterdam"
+  },
+  "info": {
+    "newsletterTitle": "Doneer een idee...",
+    "newsletterDescription": "...of je netwerk. Of je pand. Of je tijd. Of je skills. Of iets anders. Doneer via mail!",
+    "newsletterButton": "Verstuur je idee",
+    "newsletterButtonUrl": "mailto:info@stroomamsterdam.nl",
+    "title": "Meer weten over onze plannen?",
+    "links": [
+      {
+        "name": "Mail de oudsten",
+        "url": "mailto:info@stroomamsterdam.nl"
+      },
+      {
+        "name": "Mail Strominee Gerko",
+        "url": "mailto:gerko@stroomamsterdam.nl"
+      }
+    ]
+  },
+  "about": {
+    "title": "Over STROoM",
+    "description": "STRoOM verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. STRo0M bevraagt, belijdt en bijbelt. Eerlijk, onbevangen en relevant. STROoM is community. STR0oM is ernst. STRoOM zoekt naar goed nieuws voor Amsterdam.",
+    "videoId": "NFiPjglNHf4",
+    "links": [
+      {
+        "prefix": "Meer weten?",
+        "name": "Mail Strominee Gerko",
+        "url": "mailto:info@stroomamsterdam.nl",
+        "newWindow": false
+      }
+    ]
+  },
+  "footer": {
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Zijn jullie een ANBI?",
+          "answer": "Tuurlijk. Kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf)."
+        },
+        {
+          "question": "Ik ben een digibeet met geld. Wat nu?",
+          "answer": "Old school! Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
+        },
+        {
+          "question": "In GoLd we trust of in God we trust?",
+          "answer": "J﻿a."
+        },
+        {
+          "question": "Hebben jullie wel een kascontrolecommissie?",
+          "answer": "A﻿bsoluut."
+        },
+        {
+          "question": "Huh? Hoe kom ik nou weer terug op de homepage?",
+          "answer": "[H﻿iero](https://www.stroomamsterdam.nl)."
+        }
+      ]
+    }
+  }
+}

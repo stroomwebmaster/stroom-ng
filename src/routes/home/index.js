@@ -29,9 +29,9 @@ export default class Home extends Component {
 
 		return (
 			<div>
-				<Header content={prerender.data.globals.header} address={prerender.data.globals.address} />
+				<Header content={prerender.data.header} address={prerender.data.globals.address} />
 
-				<Introduction content={prerender.data.introduction} />
+				<Introduction content={prerender.data.introduction} showNewsletterBox />
 
 				<Upcoming content={prerender.data.upcoming} />
 
@@ -45,7 +45,7 @@ export default class Home extends Component {
 
 				<Activities content={prerender.data.activities} />
 
-				<Footer content={prerender.data.globals.footer} address={prerender.data.globals.address} />
+				<Footer content={prerender.data.globals.footer} faq={prerender.data.footer.faq} />
 			</div>
 		);
 	}

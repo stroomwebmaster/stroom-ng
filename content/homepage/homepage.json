@@ -4,13 +4,13 @@
     "subTitle": "Zondagochtend 11 uur"
   },
   "introduction": {
-    "description": "Stroom verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. Stroom bevraagt, belijdt en bijbelt. Kritisch, confronterend en relevant. Stroom is gemeenschap. Stroom is ernst. Stroom zoekt naar goed nieuws voor Amsterdam.",
+    "description": "STRoOM verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. STRo0M bevraagt, belijdt en bijbelt. Eerlijk, onbevangen en relevant. STROoM is community. STR0oM is ernst. STROoM zoekt naar goed nieuws voor Amsterdam. ",
     "newsletterTitle": "Nieuwsbrief",
     "newsletterButton": "Schrijf je in"
   },
   "upcoming": {
     "title": "Aanstaande zondag",
-    "description": "STROoM staat in een traditie. Een potentieel oubollige, dogmatische, religieuze traditie. In april stellen we onszelf de vraag die elke Amsterdammer zou stellen: waarom? Zondag 30 april: Anne Bolhuis",
+    "description": "STROoM staat in een traditie. Een potentieel oubollige, dogmatische, religieuze traditie. In april stellen we onszelf de vraag die elke Amsterdammer zou stellen: waarom? Zondag 7 mei: Gerko Tempelman",
     "videoId": "qlAge1sIHiU",
     "links": [
       {
@@ -33,6 +33,9 @@
     "tileTwo": {
       "title": "Leuk om hier te zijn.",
       "names": [
+        {
+          "name": "Marleen Blootens, 2003"
+        },
         {
           "name": "Iris Penning, 2023"
         },
@@ -106,11 +109,6 @@
         "description": "P﻿arallel aan de wekelijkse samenkomsten is er een kinderprogramma gericht op 4-. STROoM ontwikkelde een programma dat de allerkleinsten kennis doet maken met verhalen en hun betekenis. Elke week staat er op 'het kleed' één prentenboek centraal, en komt er een voorwerp uit 'de doos'. \n\nM﻿eer informatie bij [Susanne Blokhuis](mailto:suusblok@hotmail.com)."
       },
       {
-        "name": "stroomweekend",
-        "date": "vrijdag 29 sept - zondag 01 okt",
-        "description": "STROoM gaat naar Elahuizen, Friesland. Voor het traditionele STROoM-weekend, met iedereen die zich Stromer noemt, dat graag zou willen of gruwelt van het idee. Het wordt <a href=\"https://youtu.be/GKrXy3GGPVA\" target=\"_blank\">als vanouds</a> gezellig."
-      },
-      {
         "name": "Citykids 4+",
         "date": "zondagochtenden: 14 mei, 28 mei, 9 juli 2023",
         "description": "Geïnspireerd op de methode *Godly Play* geeft Annelies Rebel het kinderprogramma 4+ (gericht op basisschoolleeftijd) vorm. Elke maand staat er een bijbelverhaal centraal dat met alle zintuigen beleefd wordt - vervolgens gaat ieder kind met een eigen verwerking aan de slag met het verhaal. Rondom de feestdagen worden er speciale thuis-programma's ontwikkeld.\n\nM﻿eer informatie bij [Annelies Rebel](mailto:annelies.rebel@gmail.com)"
@@ -124,6 +122,16 @@
         "name": "Dopen/ opdragen",
         "date": "14 mei 2023",
         "description": "E﻿ens per halfjaar vieren we met STROoM een groot geboortefeest: we dopen kinderen of we dragen ze op - afhankelijk van waar de ouders de voorkeur aan geven. We trekken [alles uit de kast ](https://youtu.be/8bk1PxspdzE)om er een groot feest van te maken. \n\nO﻿p 14 mei is de eerstvolgende editie: in de Oosterkerk in Amsterdam."
+      },
+      {
+        "name": "Spiritualiteitscursus 2023",
+        "date": "don. 1, 15, 29 juni en weekend van 24-25 juni",
+        "description": "Spiritualiteit - voor de een het woord om lekker bij weg te dromen, voor de ander een vaag gewauwel. Bestaat er zoiets als alledaagse spiritualiteit voor moderne stadsbewoners? Iets dat óók weggelegd is voor hyper-rationele en droge zielen? Zeker!\n\nIn drie avonden neemt Jurjen de Bruijne ons mee. Hij vertelt over het wat, waarom en waartoe. hij laat je drie concrete meditatie-vormen ontdekken waar je wat aan hebt. In een echt klooster gaan we ze uitproberen.\n\nM﻿eer info en aanmelden bij [Jacqueline](mailto:jacqueline@doorendoor.nu)"
+      },
+      {
+        "name": "stroomweekend",
+        "date": "vrijdag 29 sept - zondag 01 okt",
+        "description": "STROoM gaat naar Elahuizen, Friesland. Voor het traditionele STROoM-weekend, met iedereen die zich Stromer noemt, dat graag zou willen of gruwelt van het idee. Het wordt <a href=\"https://youtu.be/GKrXy3GGPVA\" target=\"_blank\">als vanouds</a> gezellig."
       }
     ]
   },

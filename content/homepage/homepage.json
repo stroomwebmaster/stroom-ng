@@ -1,27 +1,18 @@
 {
-  "header": {
-    "title": "Stroom Amsterdam",
-    "subTitle": "Zondagochtend 11 uur"
-  },
-  "introduction": {
-    "description": "STRoOM verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. STRo0M bevraagt, belijdt en bijbelt. Eerlijk, onbevangen en relevant. STROoM is community. STR0oM is ernst. STROoM zoekt naar goed nieuws voor Amsterdam. ",
-    "newsletterTitle": "Nieuwsbrief",
-    "newsletterButton": "Schrijf je in"
-  },
-  "upcoming": {
-    "title": "Aanstaande zondag",
-    "description": "STROoM staat in een traditie. Een potentieel oubollige, dogmatische, religieuze traditie. In april stellen we onszelf de vraag die elke Amsterdammer zou stellen: waarom? Zondag 7 mei: Gerko Tempelman",
-    "videoId": "qlAge1sIHiU",
-    "links": [
+  "aboutVideos": {
+    "title": "Stromers over Stroom",
+    "videoIds": [
       {
-        "name": "Archief",
-        "url": "https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg",
-        "newWindow": true
+        "id": "ThzfycwgPu0"
       },
       {
-        "name": "Podcast archief",
-        "url": "https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA",
-        "newWindow": true
+        "id": "TxECDWS27cQ"
+      },
+      {
+        "id": "ZF00MDEHDbk"
+      },
+      {
+        "id": "eO7DqKAMMTo"
       }
     ]
   },
@@ -97,8 +88,9 @@
       "name": "Jezus, 33"
     }
   },
-  "map": {
-    "title": "Hier moet je zijn"
+  "header": {
+    "title": "Stroom Amsterdam",
+    "subTitle": "Zondagochtend 11 uur"
   },
   "activities": {
     "title": "Dit doen we ook nog",
@@ -112,11 +104,6 @@
         "name": "Citykids 4+",
         "date": "zondagochtenden: 14 mei, 28 mei, 9 juli 2023",
         "description": "Geïnspireerd op de methode *Godly Play* geeft Annelies Rebel het kinderprogramma 4+ (gericht op basisschoolleeftijd) vorm. Elke maand staat er een bijbelverhaal centraal dat met alle zintuigen beleefd wordt - vervolgens gaat ieder kind met een eigen verwerking aan de slag met het verhaal. Rondom de feestdagen worden er speciale thuis-programma's ontwikkeld.\n\nM﻿eer informatie bij [Annelies Rebel](mailto:annelies.rebel@gmail.com)"
-      },
-      {
-        "name": "Borrel!",
-        "date": "18 mei (Hemelvaart)",
-        "description": "Met Stromers (in spé) de kroeg in. Voor een nadere kennismaking of gewoon voor de aardigheid."
       },
       {
         "name": "Dopen/ opdragen",
@@ -138,22 +125,10 @@
   "venue": {
     "description": "Op zondag vind je ons in deze ruimte. Er is koffie, er is muziek, er is een overdenking en regelmatig gaan we met elkaar in gesprek. Wil je horen waar we het zoal over hebben? Beluister dan eens iets uit [ons podcast-archief](https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA)."
   },
-  "aboutVideos": {
-    "title": "Stromers over Stroom",
-    "videoIds": [
-      {
-        "id": "ThzfycwgPu0"
-      },
-      {
-        "id": "TxECDWS27cQ"
-      },
-      {
-        "id": "ZF00MDEHDbk"
-      },
-      {
-        "id": "eO7DqKAMMTo"
-      }
-    ]
+  "introduction": {
+    "description": "STRoOM verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. STRo0M bevraagt, belijdt en bijbelt. Eerlijk, onbevangen en relevant. STROoM is community. STR0oM is ernst. STROoM zoekt naar goed nieuws voor Amsterdam. ",
+    "newsletterTitle": "Nieuwsbrief",
+    "newsletterButton": "Schrijf je in"
   },
   "footer": {
     "faq": {
@@ -193,5 +168,25 @@
         }
       ]
     }
+  },
+  "upcoming": {
+    "title": "Aanstaande zondag",
+    "description": "E﻿ens per halfjaar vieren we met STROoM een groot geboortefeest: we dopen kinderen of we dragen ze op - afhankelijk van waar de ouders de voorkeur aan geven. We trekken alles uit de kast om er een groot feest van te maken. O﻿p 14 mei is de eerstvolgende editie: in de Oosterkerk in Amsterdam.",
+    "videoId": "ZRay9vp6rOU",
+    "links": [
+      {
+        "name": "Archief",
+        "url": "https://www.youtube.com/channel/UCF7Qx_YTp0BmKrFbvSOKVlg",
+        "newWindow": true
+      },
+      {
+        "name": "Podcast archief",
+        "url": "https://open.spotify.com/show/4O9MCOUazNxo1LjSKFerPM?si=SAgSMOD3TaS4g2UmBGbKUA",
+        "newWindow": true
+      }
+    ]
+  },
+  "map": {
+    "title": "Hier moet je zijn"
   }
 }

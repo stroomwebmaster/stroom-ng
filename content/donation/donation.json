@@ -45,19 +45,6 @@
       }
     ]
   },
-  "about": {
-    "title": "Over STROoM",
-    "description": "STRoOM verbindt ambitie, stad en traditie. Wentelt zich te vaak in ironie en te weinig in het heilige. STRo0M bevraagt, belijdt en bijbelt. Eerlijk, onbevangen en relevant. STROoM is community. STR0oM is ernst. STRoOM zoekt naar goed nieuws voor Amsterdam.",
-    "videoId": "NFiPjglNHf4",
-    "links": [
-      {
-        "prefix": "Meer weten?",
-        "name": "Mail Strominee Gerko",
-        "url": "mailto:info@stroomamsterdam.nl",
-        "newWindow": false
-      }
-    ]
-  },
   "footer": {
     "faq": {
       "title": "FAQ",

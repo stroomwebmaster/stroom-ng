@@ -44,15 +44,15 @@ export default class Upcoming extends Component {
 		if (links) {
 			linkItems = links.map((link) =>
 				(<>
-					{link.prefix && <span class="uppercase md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn">{link.prefix}&nbsp;</span>}
-					<a href={link.url} target={link.newWindow ? '_blank' : '_self'} rel={link.newWindow ? 'noreferrer noopener' : ''} class="uppercase text-blue md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{link.name} ›</a><br />
+					{link.prefix && <span class="text-white uppercase md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn">{link.prefix}&nbsp;</span>}
+					<a href={link.url} target={link.newWindow ? '_blank' : '_self'} rel={link.newWindow ? 'noreferrer noopener' : ''} class="uppercase text-white md:text-lg lg:text-2xl leading-normal md:leading-normal lg:leading-normal font-HelveticaNeueLTPro-MdCn hover:underline">{link.name} ›</a><br />
 				</>)
 			);
 		}
 
 		return (
-			<article class="bg-pink w-hd-80 xl:ml-auto">
-				<div class="container mx-auto px-4 md:px-0">
+			<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-64">
+			<div class="container mx-auto px-4 md:px-0">
 					<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-20 md:pt-24 lg:pt-32 pb-10 md:pb-28 lg:pb-32">
 						<div class="col-span-4 md:col-span-8 lg:col-span-12">
 							<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-red md:mb-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.title}</h2>
@@ -65,7 +65,7 @@ export default class Upcoming extends Component {
 							<iframe id="youtubevideo" src={this.state.video} class={`w-full h-full ${this.state.isPlaying ? '' : 'hidden'}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen />
 						</div>
 						<div class="col-span-4 md:col-start-5 md:col-span-3 lg:col-start-9 lg:col-span-4">
-							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-2 md:mb-4 text-coal font-HelveticaNeueLTPro-Ex whitespace-pre-line underlined-links-parent"><Markdown>{this.props.content?.description}</Markdown></p>
+							<p class="text-sm md:text-base lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mt-8 md:mt-0 mb-2 md:mb-4 text-white font-HelveticaNeueLTPro-Ex whitespace-pre-line underlined-links-parent"><Markdown>{this.props.content?.description}</Markdown></p>
 							<br />
 							{linkItems}
 						</div>

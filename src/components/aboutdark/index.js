@@ -55,7 +55,7 @@ export default class Upcoming extends Component {
 			<div class="container mx-auto px-4 md:px-0">
 					<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-20 md:pt-24 lg:pt-32 pb-10 md:pb-28 lg:pb-32">
 						<div class="col-span-4 md:col-span-8 lg:col-span-12">
-							<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-red md:mb-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.title}</h2>
+							<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta md:mb-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.title}</h2>
 						</div>
 						<div class="col-span-4 lg:col-span-7 bg-black h-16_9 sm:h-73 md:h-48 lg:h-71 xl:h-85 shadow-sharp-magenta mr-4 md:mr-8">
 							<figure class={`${style.thumbnailContainer} ${this.state.isPlaying ? 'hidden' : ''}`}>

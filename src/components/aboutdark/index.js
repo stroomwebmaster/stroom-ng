@@ -51,9 +51,9 @@ export default class Upcoming extends Component {
 		}
 
 		return (
-			<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-64">
+			<article class="bg-coal w-hd-80 xl:ml-auto flex flex-row pb-32">
 			<div class="container mx-auto px-4 md:px-0">
-					<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-20 md:pt-24 lg:pt-32 pb-10 md:pb-28 lg:pb-32">
+					<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 pt-8 pb-10 md:pb-28 lg:pb-32">
 						<div class="col-span-4 md:col-span-8 lg:col-span-12">
 							<h2 class="text-xl md:text-3xl lg:text-4xl font-black uppercase text-magenta md:mb-12 font-HelveticaNeueLTPro-BlkEx">{this.props.content?.title}</h2>
 						</div>

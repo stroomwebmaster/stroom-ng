@@ -6,7 +6,8 @@ import Header from '../../components/header';
 import Introduction from '../../components/introduction';
 import Map from '../../components/map';
 import Venue from '../../components/venue';
-import AboutVideos from '../../components/aboutvideo';
+// import AboutVideos from '../../components/aboutvideo';
+import AboutDark from '../../components/aboutdark';
 import Tiles from '../../components/tiles';
 import Upcoming from '../../components/upcoming';
 import Activities from '../../components/activities';
@@ -41,7 +42,9 @@ export default class Home extends Component {
 
 				<Venue content={prerender.data.venue} />
 
-				<AboutVideos content={prerender.data.aboutVideos} />
+				{/* <AboutVideos content={prerender.data.aboutVideos} /> */}
+
+				<AboutDark content={prerender.data.globals.about} />
 
 				<Activities content={prerender.data.activities} />
 

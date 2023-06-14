@@ -20,7 +20,7 @@ const Donation = (props) => {
 
 			<DonationInfo content={prerender.data.info} />
 
-			<About content={prerender.data.about} />
+			<About content={prerender.data.globals.about} />
 
 			<Footer content={prerender.data.globals.footer} faq={prerender.data.footer.faq} />
 		</div>

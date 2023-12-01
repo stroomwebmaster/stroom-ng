@@ -73,8 +73,16 @@
     }
   },
   "about": {
-    "title": "Title for about",
-    "description": "D﻿escription",
-    "videoId": "some-id"
+    "title": "Nieuwe titel",
+    "description": "Nieuwe beschrijving",
+    "videoId": "NFiPjglNHf4",
+    "links": [
+      {
+        "prefix": "Meer weten?",
+        "name": "Mail Strominee Gerko",
+        "url": "mailto:info@stroomamsterdam.nl",
+        "newWindow": false
+      }
+    ]
   }
 }

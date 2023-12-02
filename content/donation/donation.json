@@ -46,9 +46,9 @@
     ]
   },
   "about": {
-    "title": "Nieuwe titel",
-    "description": "Nieuwe beschrijving",
-    "videoId": "NFiPjglNHf4",
+    "title": "OLIEBOLLIG: eindejaarsborrel",
+    "description": "A﻿an het eind van het jaar maken we de balans op tijdens de eindejaarsborrel met oliebollen, in de Kas.\n\n🕚 - Vrijdag, 29 november 17u\n📍 - Nieuwe Herengracht 18",
+    "videoId": "r7bzjTHlyAk",
     "links": [
       {
         "prefix": "Meer weten?",
@@ -84,18 +84,5 @@
         }
       ]
     }
-  },
-  "about": {
-    "title": "Nieuwe titel",
-    "description": "Nieuwe beschrijving",
-    "videoId": "NFiPjglNHf4",
-    "links": [
-      {
-        "prefix": "Meer weten?",
-        "name": "Mail Strominee Gerko",
-        "url": "mailto:info@stroomamsterdam.nl",
-        "newWindow": false
-      }
-    ]
   }
 }

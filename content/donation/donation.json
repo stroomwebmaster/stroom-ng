@@ -11,14 +11,14 @@
     "titleMiddle": "l",
     "titleEnd": "d we trust",
     "tileOne": {
-      "title": "€ 50,-",
+      "title": "€ 75,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://donorbox.org/stroom-amsterdam-50"
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-75"
     },
     "tileTwo": {
-      "title": "€ 150,-",
+      "title": "€ 250,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://donorbox.org/stroom-amsterdam-150"
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-250"
     },
     "tileThree": {
       "title": "€ 750,-",

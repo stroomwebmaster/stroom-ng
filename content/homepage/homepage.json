@@ -139,7 +139,7 @@
       "items": [
         {
           "question": "Op welke dag vindt STROOM plaats?",
-          "answer": "Op zondag."
+          "answer": "Op zondag. (Na de zomer weer. De seizoensstart is op 1 september, om 11:00.)"
         },
         {
           "question": "Hoe laat vindt STROOM op zondag plaats?",
@@ -174,8 +174,8 @@
   },
   "upcoming": {
     "title": "Aanstaande zondag",
-    "description": "STROoM daagt je uit om verschilliger te worden. Niet door ideeën aan te reiken, maar door jou verschillende mensen te laten ontmoeten. De christelijke traditie heeft daar een goede formule voor: aan tafel!",
-    "videoId": "FAfHM6n9fhA",
+    "description": "STROoM geniet van de zoOmer. Tot 1 september zijn er geen samenkomsten. De seizoensstart is op 1 september, om 11:00.\\\n\\\nP.s.: heb je je al [ingeschreven](https://forms.gle/M2T8dfCTRT7XGLS69) voor het STROoM-weekend?",
+    "videoId": "EhQaWZxxL-4",
     "links": [
       {
         "name": "Archief",

@@ -112,16 +112,6 @@
         "name": "BORRELS",
         "date": "IEDER SEIZOEN",
         "description": "17 januari: winter borrel"
-      },
-      {
-        "name": "Kerstavonddienst",
-        "description": "Al jaren organiseert STROoM Amsterdam een eigentijdse kerstavonddienst. Met live-muziek en kerstkoor en van DJ tot samenzang. Met een in Amsterdamse taal verpakte kerstgedachte en een borrel na. De samenkomst is van 22.00 tot 23:00.\n\n📍Nieuwe Herengracht 18 (22:00)",
-        "date": "24 dec"
-      },
-      {
-        "name": "Kinderkerst",
-        "date": "24 dec",
-        "description": "Kinderkerst voor alle kleine & grote Amsterdammers. Samen met CityKerk. Om 16:30.\n\n📍Vrijburg"
       }
     ]
   },
@@ -173,9 +163,9 @@
     }
   },
   "upcoming": {
-    "title": "Kerstavond, 22:00",
-    "description": "STROoM organiseert een eigentijdse kerstavonddienst. Met live-muziek en kerstkoor, van DJ tot samenzang. Met een in Amsterdamse taal verpakte kerstgedachte en een borrel na. Van harte welkom!\n\n🕙 - 24 dec. 22u\n📍- Nieuwe Herengracht 18\\\n\\\nZondag 29 december is er geen samenkomst.",
-    "videoId": "MkJKzf_zW6I",
+    "title": "Zondag",
+    "description": "In januari dragen de tafelkringen van STROoM de thema's voor de samenkomsten aan. Van verschillende godsbeelden, tot polarisatie en Amsterdam als religieuze stad - alles mag besproken!\\\n\\\n\\\nZondag 29 december is er geen samenkomst.",
+    "videoId": "wilzRaq0Duk",
     "links": [
       {
         "name": "Archief",

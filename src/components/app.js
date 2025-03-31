@@ -6,6 +6,7 @@ import NotFoundPage from '../routes/notfound';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Donation from '../routes/donation';
+import Easter from '../routes/easter';
 
 export default class App extends Component {
 	ref = createRef();
@@ -40,6 +41,7 @@ export default class App extends Component {
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
 							<Donation path="/donatie" />
+							<Easter path="/pasen" />
 							<NotFoundPage type="404" default />
 						</Router>
 					</div>

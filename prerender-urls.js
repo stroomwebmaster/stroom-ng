@@ -22,6 +22,15 @@ module.exports = () => {
 		}
 	});
 
+	const easter = JSON.parse(fs.readFileSync(join('content', 'easter', 'easter.json'), 'utf-8'));
+	pages.push({
+		url: '/pasen',
+		//seo: to do
+		data: {
+			...easter
+		}
+	});
+
 	const globals = JSON.parse(fs.readFileSync(join('content', 'globals.json'), 'utf-8'));
 	pages.forEach((page) => {
 		page.data = {

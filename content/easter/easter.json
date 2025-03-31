@@ -1,0 +1,88 @@
+{
+  "header": {
+    "title": "geld moet ",
+    "subTitle": "Stro0o0o0omen"
+  },
+  "introduction": {
+    "description": "STROoM geeft zin aan Amsterdam. En dat willen we in een stro0oO0mversnelling brengen. Help je mee?\n\nAfgelopen jaar \n=﻿> startten we vier nieuwe ‘tafelkringen’. \n=﻿> hadden we een wekelijks kinderprogramma voor zo’n 40 kids. \n=> staan we er financieel relatief gezond voor\n\nEn we hebben grote plannen voor volgend jaar.\n=﻿> Op zoek naar een toffe nieuwe locatie!\n=﻿> Een wekelijkse 4+ kindergroep.\n=﻿> Professionaliseren: we hebben gezien hoe ons kinderwerk daardoor gegroeid is. We willen meer ondersteuning bij muziek en techniek en later ook bij kringen.\n\nHelp je mee om STROoM door te laten stromen?"
+  },
+  "easter": {
+    "titleStart": "In Go",
+    "titleMiddle": "l",
+    "titleEnd": "d we trust",
+    "tileOne": {
+      "title": "€ 50,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-50"
+    },
+    "tileTwo": {
+      "title": "€ 150,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-150"
+    },
+    "tileThree": {
+      "title": "€ 500,-",
+      "buttonText": "Doneer",
+      "buttonUrl": "https://donorbox.org/stroom-amsterdam-500"
+    },
+    "secondaryButtonText": "Of kies zelf een bedrag",
+    "secondaryButtonUrl": "https://donorbox.org/stroom-amsterdam"
+  },
+  "info": {
+    "newsletterTitle": "Doneer een idee...",
+    "newsletterDescription": "...of je netwerk. Of je pand. Of je tijd. Of je skills. Of iets anders. Doneer via mail!",
+    "newsletterButton": "Verstuur je idee",
+    "newsletterButtonUrl": "mailto:info@stroomamsterdam.nl",
+    "title": "Meer weten over onze plannen?",
+    "links": [
+      {
+        "name": "Mail de oudsten",
+        "url": "mailto:info@stroomamsterdam.nl"
+      },
+      {
+        "name": "Mail Strominee Gerko",
+        "url": "mailto:gerko@stroomamsterdam.nl"
+      }
+    ]
+  },
+  "about": {
+    "title": "OLIEBOLLIG: eindejaarsborrel",
+    "description": "A﻿an het eind van het jaar maken we de balans op, tijdens de eindejaarsborrel met oliebollen, sjoelbak en kleine pubquiz.\n🕚 - Vrijdag, 29 december 16u\n📍 - Café Los, Rembrandtplein 1",
+    "videoId": "TAJaxuPtnvA",
+    "links": [
+      {
+        "prefix": "Meer weten?",
+        "name": "Mail de oudsten",
+        "url": "mailto:info@stroomamsterdam.nl",
+        "newWindow": false
+      }
+    ]
+  },
+  "footer": {
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Zijn jullie een ANBI?",
+          "answer": "Tuurlijk. Kijk [hier](http://stroomamsterdam.nl/assets/anbi.pdf)."
+        },
+        {
+          "question": "Ik ben een digibeet met geld. Wat nu?",
+          "answer": "Old school! Rekeningnummer: NL49 INGB 0009 694 676 tnv STROoM Amsterdam"
+        },
+        {
+          "question": "In GoLd we trust of in God we trust?",
+          "answer": "J﻿a."
+        },
+        {
+          "question": "Hebben jullie wel een kascontrolecommissie?",
+          "answer": "A﻿bsoluut."
+        },
+        {
+          "question": "Huh? Hoe kom ik nou weer terug op de homepage?",
+          "answer": "[H﻿iero](https://www.stroomamsterdam.nl)."
+        }
+      ]
+    }
+  }
+}

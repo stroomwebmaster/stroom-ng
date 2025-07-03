@@ -13,7 +13,7 @@
     "links": [
       {
         "prefix": "Meer weten?",
-        "name": "Mail Strominee Gerko",
+        "name": "Mail STROoM",
         "url": "mailto:info@stroomamsterdam.nl",
         "newWindow": false
       }
@@ -39,8 +39,8 @@
         "url": "mailto:info@stroomamsterdam.nl"
       },
       "email2": {
-        "title": "gerko@stroomamsterdam.nl",
-        "url": "mailto:gerko@stroomamsterdam.nl"
+        "title": "oudsten@stroomamsterdam.nl",
+        "url": "mailto:oudsten@stroomamsterdam.nl"
       }
     },
     "copyrightName": "STROOM Amsterdam"

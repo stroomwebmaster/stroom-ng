@@ -13,20 +13,20 @@
     "tileOne": {
       "title": "€ 75,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://stroomamsterdam.us17.list-manage.com/track/click?u=79f9dab6aa872630f9b994fcd&id=179da9ee0f&e=026095576d"
+      "buttonUrl": "https://stroomamsterdam.nl/donatie/"
     },
     "tileTwo": {
       "title": "€ 250,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://stroomamsterdam.us17.list-manage.com/track/click?u=79f9dab6aa872630f9b994fcd&id=179da9ee0f&e=026095576d"
+      "buttonUrl": "https://stroomamsterdam.nl/donatie/"
     },
     "tileThree": {
       "title": "€ 750,-",
       "buttonText": "Doneer",
-      "buttonUrl": "https://stroomamsterdam.us17.list-manage.com/track/click?u=79f9dab6aa872630f9b994fcd&id=179da9ee0f&e=026095576d"
+      "buttonUrl": "https://stroomamsterdam.nl/donatie/"
     },
     "secondaryButtonText": "Of kies zelf een bedrag",
-    "secondaryButtonUrl": "https://stroomamsterdam.us17.list-manage.com/track/click?u=79f9dab6aa872630f9b994fcd&id=179da9ee0f&e=026095576d"
+    "secondaryButtonUrl": "https://stroomamsterdam.nl/donatie/"
   },
   "info": {
     "newsletterTitle": "Doneer een idee...",

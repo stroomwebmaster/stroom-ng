@@ -46,7 +46,7 @@ export default class Home extends Component {
 
 				<AboutDark content={prerender.data.globals.about} />
 
-				<Activities content={prerender.data.activities} />
+				<Activities content={prerender.data.activities} pageLink={prerender.data.pageLink} />
 
 				<Footer content={prerender.data.globals.footer} faq={prerender.data.footer.faq} />
 			</div>

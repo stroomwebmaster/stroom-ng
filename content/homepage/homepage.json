@@ -95,6 +95,11 @@
     "title": "Stroom Amsterdam",
     "subTitle": "Zondagochtend 11 uur"
   },
+  "pageLink": {
+    "show": true,
+    "text": "Vacature: voorganger gezocht",
+    "url": "/voorganger"
+  },
   "activities": {
     "title": "Dit doen we ook",
     "activity": [

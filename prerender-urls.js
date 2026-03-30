@@ -31,6 +31,15 @@ module.exports = () => {
 		}
 	});
 
+	const extraPage = JSON.parse(fs.readFileSync(join('content', 'extra-page', 'extra-page.json'), 'utf-8'));
+	pages.push({
+		url: `/${extraPage.slug}`,
+		//seo: to do
+		data: {
+			...extraPage
+		}
+	});
+
 	const globals = JSON.parse(fs.readFileSync(join('content', 'globals.json'), 'utf-8'));
 	pages.forEach((page) => {
 		page.data = {

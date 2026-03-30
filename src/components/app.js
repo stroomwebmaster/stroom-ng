@@ -8,6 +8,7 @@ import Home from '../routes/home';
 import Donation from '../routes/donation';
 import Easter from '../routes/easter';
 import ExtraPage from '../routes/extra-page';
+import Visie from '../routes/visie';
 
 export default class App extends Component {
 	ref = createRef();
@@ -43,6 +44,7 @@ export default class App extends Component {
 							<Home path="/" />
 							<Donation path="/donatie" />
 							<Easter path="/pasen" />
+							<Visie path="/visie" />
 							<ExtraPage path="/:slug" />
 							<NotFoundPage type="404" default />
 						</Router>

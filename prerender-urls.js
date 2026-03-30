@@ -31,6 +31,15 @@ module.exports = () => {
 		}
 	});
 
+	const visie = JSON.parse(fs.readFileSync(join('content', 'visie', 'visie.json'), 'utf-8'));
+	pages.push({
+		url: '/visie',
+		//seo: to do
+		data: {
+			...visie
+		}
+	});
+
 	const extraPage = JSON.parse(fs.readFileSync(join('content', 'extra-page', 'extra-page.json'), 'utf-8'));
 	pages.push({
 		url: `/${extraPage.slug}`,

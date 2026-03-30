@@ -301,6 +301,38 @@ collections:
                     fields:
                       - {label: Question, name: question, widget: string}
                       - {label: Answer, name: answer, widget: markdown}
+  - name: visie
+    label: Visie
+    files:
+      - label: Visie
+        name: visie
+        file: content/visie/visie.json
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
+          - label: Body
+            name: body
+            widget: object
+            fields:
+              - {label: Content, name: content, widget: markdown}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: markdown}
   - name: extra-page
     label: Extra page
     files:

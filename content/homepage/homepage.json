@@ -96,7 +96,7 @@
     "subTitle": "Zondagochtend 11 uur"
   },
   "pageLink": {
-    "show": true,
+    "show": false,
     "text": "Vacature Stroominee",
     "url": "/stroominee"
   },

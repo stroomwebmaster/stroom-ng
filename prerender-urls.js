@@ -33,7 +33,7 @@ module.exports = () => {
 
 	const extraPage = JSON.parse(fs.readFileSync(join('content', 'extra-page', 'extra-page.json'), 'utf-8'));
 	pages.push({
-		url: `/${extraPage.slug}/`,
+		url: `/${extraPage.slug}`,
 		//seo: to do
 		data: {
 			...extraPage

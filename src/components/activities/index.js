@@ -6,7 +6,7 @@ const Activities = (props) => (
 			{props.pageLink?.show &&
 				<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 mb-4 lg:mb-6">
 					<div class="col-span-4 md:col-start-5 md:col-span-3 lg:col-start-9 lg:col-span-4">
-						<a href={props.pageLink.url} class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn hover:underline">
+						<a native href={props.pageLink.url} class="uppercase text-white md:text-lg lg:text-2xl font-HelveticaNeueLTPro-MdCn hover:underline">
 							{props.pageLink.text}&nbsp;›
 						</a>
 					</div>

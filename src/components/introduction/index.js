@@ -16,6 +16,11 @@ export default class Introduction extends Component {
 								<p class="text-coal text-sm md:text-lg lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed mb-8 font-HelveticaNeueLTPro-Ex pl-4 whitespace-pre-line">
 									{this.props.content?.description}
 								</p>
+								{this.props.pageLink?.show &&
+									<a native href={this.props.pageLink.url} class="inline-block uppercase text-red text-base md:text-xl lg:text-2xl font-HelveticaNeueLTPro-BlkEx hover:underline pl-4">
+										{this.props.pageLink.text} ›
+									</a>
+								}
 							</div>
 						</div>
 					</div>

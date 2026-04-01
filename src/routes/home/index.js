@@ -32,7 +32,7 @@ export default class Home extends Component {
 			<div>
 				<Header content={prerender.data.header} address={prerender.data.globals.address} />
 
-				<Introduction content={prerender.data.introduction} showNewsletterBox />
+				<Introduction content={prerender.data.introduction} showNewsletterBox pageLink={prerender.data.pageLink} />
 
 				<Upcoming content={prerender.data.upcoming} />
 

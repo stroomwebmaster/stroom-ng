@@ -24,6 +24,13 @@ collections:
               - {label: Description, name: description, widget: markdown}
               - {label: Newsletter title, name: newsletterTitle, widget: string}
               - {label: Newsletter button text, name: newsletterButton, widget: string}
+          - label: Page Link
+            name: pageLink
+            widget: object
+            fields:
+              - {label: Show, name: show, widget: boolean}
+              - {label: Text, name: text, widget: string}
+              - {label: URL, name: url, widget: string}
           - label: Upcoming
             name: upcoming
             widget: object
@@ -280,6 +287,71 @@ collections:
                 - {label: Name, name: name, widget: string}
                 - {label: Url, name: url, widget: string}
                 - {label: New window, name: newWindow, widget: boolean}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: markdown}
+  - name: visie
+    label: Visie
+    files:
+      - label: Visie
+        name: visie
+        file: content/visie/visie.json
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
+          - label: Body
+            name: body
+            widget: object
+            fields:
+              - {label: Content, name: content, widget: markdown}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - label: FAQ
+                name: faq
+                widget: object
+                fields:
+                  - label: Items
+                    name: items
+                    widget: list
+                    fields:
+                      - {label: Question, name: question, widget: string}
+                      - {label: Answer, name: answer, widget: markdown}
+  - name: extra-page
+    label: Extra page
+    files:
+      - label: Extra page
+        name: extra-page
+        file: content/extra-page/extra-page.json
+        fields:
+          - {label: Slug (URL), name: slug, widget: string, hint: "The URL path for this page, e.g. 'voorganger' results in stroomamsterdam.nl/voorganger"}
+          - label: Header
+            name: header
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subTitle, widget: string}
+          - label: Body
+            name: body
+            widget: object
+            fields:
+              - {label: Content, name: content, widget: markdown}
           - label: Footer
             name: footer
             widget: object

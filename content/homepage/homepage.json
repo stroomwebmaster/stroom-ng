@@ -95,6 +95,11 @@
     "title": "Stroom Amsterdam",
     "subTitle": "Zondagochtend 11 uur"
   },
+  "pageLink": {
+    "show": false,
+    "text": "Vacature Stroominee",
+    "url": "/vacaturestroominee"
+  },
   "activities": {
     "title": "Dit doen we ook",
     "activity": [

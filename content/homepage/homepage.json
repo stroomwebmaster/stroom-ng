@@ -91,23 +91,18 @@
       "name": "Jezus, 33"
     }
   },
-  "header": {
-    "title": "Stroom Amsterdam",
-    "subTitle": "Zondagochtend 11 uur"
-  },
   "pageLink": {
     "show": false,
     "text": "Vacature Stroominee",
     "url": "/vacaturestroominee"
   },
+  "header": {
+    "title": "Stroom Amsterdam",
+    "subTitle": "Zondagochtend 11 uur"
+  },
   "activities": {
     "title": "Dit doen we ook",
     "activity": [
-      {
-        "name": "Kindersamenkomst Palmpasen",
-        "date": "Zondag 29 maart 10:15 uur ",
-        "description": "Op Palmpasen vieren we bij STROoM een feestelijke ochtend voor jong en oud. Alle kinderen zijn van harte welkom om om 10:15 uur hun Palmpasenstok te komen maken of verder te versieren.\n\nMet hun kleurrijke stokken lopen we daarna samen een vrolijke Palmpasenprocessie door de tuin van de diaconie. Zo komen de kinderen feestelijk de Kas binnen, waar we samen luisteren naar het verhaal van Palmpasen, zingen met elkaar en stilstaan bij deze bijzondere dag.\n\nNa afloop sluiten we de ochtend af met een gezellige gezamenlijke lunch. We kijken ernaar uit om samen Palmpasen te vieren!\n\n\n\n![]()"
-      },
       {
         "name": "Kinderstroom",
         "date": "Elke zondag, 11u",
@@ -116,7 +111,7 @@
       {
         "name": "BORRELS",
         "date": "IEDER SEIZOEN",
-        "description": "Elk seizoen is er een STROoM-borrel. Praat lekker bij en leer nieuwe Stroomers kennen! De lente editie is vrijdag 27 maart om 20:00u in de [Waterkant](https://maps.app.goo.gl/VVjatF3epxrxrZ1Y6)"
+        "description": "Elk seizoen is er een STROoM-borrel. Praat lekker bij en leer nieuwe Stroomers kennen! De volgende edititie zal in mei zijn. Datum en plek volgen spoedig."
       },
       {
         "name": "STROoM 20 JAAR",

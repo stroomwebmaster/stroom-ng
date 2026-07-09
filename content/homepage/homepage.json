@@ -92,7 +92,7 @@
     }
   },
   "pageLink": {
-    "show": true,
+    "show": false,
     "text": "Vacature Stroominee",
     "url": "/vacaturestroominee"
   },

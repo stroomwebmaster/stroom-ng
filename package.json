@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"scripts": {
-		"build": "preact build --prerenderUrls ./prerender-urls.js",
+		"build": "preact build --prerenderUrls ./prerender-urls.js --no-inline-css",
 		"serve": "sirv build --port 8080 --cors --single",
 		"dev": "preact watch --prerender --prerenderUrls ./prerender-urls.js --refresh",
 		"lint": "eslint src"

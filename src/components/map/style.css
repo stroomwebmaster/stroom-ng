@@ -1,7 +1,22 @@
 .container {
     height: 400px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /* Dark enough that the blue overlay blend turns the map deep blue with black labels */
+    filter: grayscale(100%) brightness(0.5) contrast(1.4);
+    -webkit-filter: grayscale(100%) brightness(0.5) contrast(1.4);
+}
+
+/* The embed centres on the coordinates and can't be panned, so the pin's tip stays at 50%/50% */
+.label {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #282828;
 }
 
 .overlay {
